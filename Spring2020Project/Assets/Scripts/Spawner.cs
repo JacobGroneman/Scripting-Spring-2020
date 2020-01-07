@@ -6,12 +6,14 @@ public class Spawner : MonoBehaviour
 {
     public GameObject sparks;
     private GameObject[] spawners;
+    private List<GameObject> UFOs;
     
     // Start is called before the first frame update
     void Start()
     {
         spawners = GameObject.FindGameObjectsWithTag("Spawn");
         InvokeRepeating("Spawn", 1, 1);
+        UFOs = new List<GameObject>();
     }
 
     // Update is called once per frame
@@ -23,6 +25,8 @@ public class Spawner : MonoBehaviour
     void Spawn()
     {
         GameObject spawn = spawners[Random.Range(0, spawners.Length)];
-        Instantiate(sparks, spawn.transform.position, Quaternion.identity);
+        GameObject clone = Instantiate(sparks, spawn.transform.position, Quaternion.identity) as GameObject;
+        clone.name = "UFO - " + Time.time.ToString();
+        UFOs.Add(clone);
     }
 }
