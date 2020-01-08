@@ -63,11 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ExampleScript.cs" />
-    <Compile Include="Assets\Scripts\MyController.cs" />
-    <Compile Include="Assets\Scripts\ParticleController.cs" />
-    <Compile Include="Assets\Scripts\Spawner.cs" />
-    <Compile Include="Assets\Scripts\UFOController.cs" />
+    <Compile Include="Assets\Scripts\UFO's Tutorial\ExampleScript.cs" />
+    <Compile Include="Assets\Scripts\UFO's Tutorial\MyController.cs" />
+    <Compile Include="Assets\Scripts\UFO's Tutorial\ParticleController.cs" />
+    <Compile Include="Assets\Scripts\UFO's Tutorial\Spawner.cs" />
+    <Compile Include="Assets\Scripts\UFO's Tutorial\SpawnPeaker.cs" />
+    <Compile Include="Assets\Scripts\UFO's Tutorial\UFOController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

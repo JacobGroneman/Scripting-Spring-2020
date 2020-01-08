@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UFOController : MonoBehaviour
 {
-   private MyController myController;
+   public MyController myController;
     private Vector3 direction;
     
     // Start is called before the first frame update

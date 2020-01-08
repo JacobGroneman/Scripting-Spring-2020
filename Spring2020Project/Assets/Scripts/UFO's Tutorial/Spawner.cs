@@ -5,8 +5,11 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public GameObject sparks;
+    public int myInt = 5;
+    public MyController myController;
     private GameObject[] spawners;
     private List<GameObject> UFOs;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -16,17 +19,25 @@ public class Spawner : MonoBehaviour
         UFOs = new List<GameObject>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            foreach (GameObject ufo in UFOs)
+            {
+                Instantiate(sparks, ufo.transform.position, Quaternion.identity);
+                Destroy(ufo);
+            }
+        }
     }
-
+    
     void Spawn()
     {
         GameObject spawn = spawners[Random.Range(0, spawners.Length)];
         GameObject clone = Instantiate(sparks, spawn.transform.position, Quaternion.identity) as GameObject;
         clone.name = "UFO - " + Time.time.ToString();
         UFOs.Add(clone);
+        UFOController controller = clone.GetComponent<UFOController>();
+        controller.myController = myController;
     }
 }
