@@ -7,6 +7,11 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="Data Persistence" t="Include">
+            <e p="AdjustScript.cs" t="Include" />
+            <e p="GameControl.cs" t="Include" />
+            <e p="TraverseScreenScript.cs" t="Include" />
+          </e>
           <e p="UFO's Tutorial" t="Include">
             <e p="ExampleScript.cs" t="Include" />
             <e p="MyController.cs" t="Include" />
