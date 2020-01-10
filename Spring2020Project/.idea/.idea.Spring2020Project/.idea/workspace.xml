@@ -14,6 +14,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UFO's Tutorial/Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/a8/b12c8a64/Void.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data Persistence/AdjustScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data Persistence/GameControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data Persistence/TraverseScreenScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -25,6 +28,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnPeaker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Spawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UFO's Tutorial/Spawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data Persistence/TraverseScreenScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data Persistence/GameControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Data Persistence/AdjustScript.cs" />
       </list>
     </option>
   </component>
@@ -77,6 +83,8 @@
       <workItem from="1578374361016" duration="4849000" />
       <workItem from="1578436920228" duration="2682000" />
       <workItem from="1578503902325" duration="2597000" />
+      <workItem from="1578610570308" duration="314000" />
+      <workItem from="1578611233270" duration="3830000" />
     </task>
     <servers />
   </component>
