@@ -1,9 +1,14 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using UnityEngine;
+=======
+using UnityEngine;
+
+>>>>>>> master
 public class GameControl : MonoBehaviour
 {
     public static GameControl control;
@@ -24,11 +29,16 @@ public class GameControl : MonoBehaviour
             Destroy(gameObject);
         }
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
     private void OnGUI()
     {
         GUI.Label(new Rect(10, 10, 100, 30), "Health" + health);
         GUI.Label(new Rect(10, 40, 150, 30), "Experience" + experience);
     }
+<<<<<<< HEAD
 
     public void Save()
     {
@@ -64,3 +74,6 @@ class PlayerData
     public float health;
     public float experience;
 }
+=======
+}
+>>>>>>> master

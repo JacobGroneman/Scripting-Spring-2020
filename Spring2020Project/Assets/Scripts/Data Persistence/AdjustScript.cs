@@ -26,6 +26,7 @@ public class AdjustScript : MonoBehaviour
         {
             GameControl.control.experience -= 10;
         }
+<<<<<<< HEAD
         if (GUI.Button(new Rect(10, 260, 100, 30), "Experience Save"))
         {
             GameControl.control.Save();
@@ -34,5 +35,7 @@ public class AdjustScript : MonoBehaviour
         {
             GameControl.control.Load();
         }
+=======
+>>>>>>> master
     }
 }
