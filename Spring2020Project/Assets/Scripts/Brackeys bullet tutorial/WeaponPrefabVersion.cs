@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.AI;
 
-public class Weapon : MonoBehaviour
+public class WeaponPrefabVersion : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject bulletPrefab;

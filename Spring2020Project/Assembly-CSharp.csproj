@@ -63,7 +63,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Brackeys bullet tutorial\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Brackeys bullet tutorial\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Brackeys bullet tutorial\WeaponPrefabVersion.cs" />
+    <Compile Include="Assets\Scripts\Brackeys bullet tutorial\WeaponRaycastVersion.cs" />
     <Compile Include="Assets\Scripts\Data Persistence\AdjustScript.cs" />
     <Compile Include="Assets\Scripts\Data Persistence\GameControl.cs" />
     <Compile Include="Assets\Scripts\Data Persistence\TraverseScreenScript.cs" />
@@ -73,7 +76,6 @@
     <Compile Include="Assets\Scripts\UFO's Tutorial\Spawner.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\SpawnPeaker.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\UFOController.cs" />
-    <Compile Include="Assets\Weapon.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
