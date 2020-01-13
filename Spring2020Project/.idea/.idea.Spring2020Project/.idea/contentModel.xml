@@ -6,10 +6,7 @@
     <e p="C:\Users\jacob\OneDrive\Utah Valley University\Scripting\Scripting Spring 2020\Spring2020Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="collectable.cs" t="Include" />
-        <e p="Main.cs" t="Include" />
-        <e p="PlayerMovement.cs" t="Include" />
-        <e p="Position.cs" t="Include" />
+        <e p="Crate.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Brackeys bullet tutorial" t="Include">
             <e p="Bullet.cs" t="Include" />
@@ -30,6 +27,13 @@
             <e p="SpawnPeaker.cs" t="Include" />
             <e p="UFOController.cs" t="Include" />
           </e>
+        </e>
+        <e p="UnitySurvivalGuideScripts" t="Include">
+          <e p="collectable.cs" t="Include" />
+          <e p="Main.cs" t="Include" />
+          <e p="Pause.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="Position.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
