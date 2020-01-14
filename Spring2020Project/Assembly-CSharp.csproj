@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\Brackeys bullet tutorial\WeaponPrefabVersion.cs" />
     <Compile Include="Assets\Scripts\Brackeys bullet tutorial\WeaponRaycastVersion.cs" />
     <Compile Include="Assets\Scripts\ClassScripts\Assignments\Variables\Variables.cs" />
+    <Compile Include="Assets\Scripts\ClassScripts\Assignments\Variables\VariablesHomework1.cs" />
     <Compile Include="Assets\Scripts\Data Persistence\AdjustScript.cs" />
     <Compile Include="Assets\Scripts\Data Persistence\GameControl.cs" />
     <Compile Include="Assets\Scripts\Data Persistence\TraverseScreenScript.cs" />

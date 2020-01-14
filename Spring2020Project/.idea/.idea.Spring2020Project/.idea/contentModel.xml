@@ -17,6 +17,7 @@
             <e p="Assignments" t="Include">
               <e p="Variables" t="Include">
                 <e p="Variables.cs" t="Include" />
+                <e p="VariablesHomework1.cs" t="Include" />
               </e>
             </e>
           </e>
