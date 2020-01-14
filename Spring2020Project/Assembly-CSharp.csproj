@@ -63,11 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Crate.cs" />
     <Compile Include="Assets\Scripts\Brackeys bullet tutorial\Bullet.cs" />
     <Compile Include="Assets\Scripts\Brackeys bullet tutorial\Enemy.cs" />
     <Compile Include="Assets\Scripts\Brackeys bullet tutorial\WeaponPrefabVersion.cs" />
     <Compile Include="Assets\Scripts\Brackeys bullet tutorial\WeaponRaycastVersion.cs" />
+    <Compile Include="Assets\Scripts\ClassScripts\Assignments\Variables\Variables.cs" />
     <Compile Include="Assets\Scripts\Data Persistence\AdjustScript.cs" />
     <Compile Include="Assets\Scripts\Data Persistence\GameControl.cs" />
     <Compile Include="Assets\Scripts\Data Persistence\TraverseScreenScript.cs" />
@@ -77,11 +77,12 @@
     <Compile Include="Assets\Scripts\UFO's Tutorial\Spawner.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\SpawnPeaker.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\UFOController.cs" />
-    <Compile Include="Assets\UnitySurvivalGuideScripts\collectable.cs" />
-    <Compile Include="Assets\UnitySurvivalGuideScripts\Main.cs" />
-    <Compile Include="Assets\UnitySurvivalGuideScripts\Pause.cs" />
-    <Compile Include="Assets\UnitySurvivalGuideScripts\PlayerMovement.cs" />
-    <Compile Include="Assets\UnitySurvivalGuideScripts\Position.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\collectable.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Crate.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Main.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Pause.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Position.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
