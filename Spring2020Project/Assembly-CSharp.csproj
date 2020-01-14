@@ -78,12 +78,13 @@
     <Compile Include="Assets\Scripts\UFO's Tutorial\Spawner.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\SpawnPeaker.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\UFOController.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\collectable.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Crate.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Main.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Pause.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Position.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\collectable.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Crate.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Main.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Pause.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Position.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\SpawnCube.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

@@ -35,12 +35,17 @@
             <e p="UFOController.cs" t="Include" />
           </e>
           <e p="UnitySurvivalGuideScripts" t="Include">
-            <e p="collectable.cs" t="Include" />
-            <e p="Crate.cs" t="Include" />
-            <e p="Main.cs" t="Include" />
-            <e p="Pause.cs" t="Include" />
-            <e p="PlayerMovement.cs" t="Include" />
-            <e p="Position.cs" t="Include" />
+            <e p="Basics" t="Include">
+              <e p="collectable.cs" t="Include" />
+              <e p="Crate.cs" t="Include" />
+              <e p="Main.cs" t="Include" />
+              <e p="Pause.cs" t="Include" />
+              <e p="PlayerMovement.cs" t="Include" />
+              <e p="Position.cs" t="Include" />
+            </e>
+            <e p="Rotations" t="Include">
+              <e p="SpawnCube.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>
