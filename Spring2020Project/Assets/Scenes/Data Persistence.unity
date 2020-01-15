@@ -565,6 +565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fracturedCrate: {fileID: 1111203609521772487, guid: cd2dbafc39bd1b04480630228879e25a,
     type: 3}
+  explosionEffect: {fileID: 0}
 --- !u!1 &1331597390
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,6 +579,7 @@ GameObject:
   - component: {fileID: 1331597393}
   - component: {fileID: 1331597392}
   - component: {fileID: 1331597391}
+  - component: {fileID: 1331597396}
   m_Layer: 0
   m_Name: Playercube
   m_TagString: Player
@@ -671,6 +673,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1331597396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331597390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09f6dd2ed06a5be449aeb8adf6548e24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sphere: {fileID: 142641441}
 --- !u!1 &1434187065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1017,7 +1032,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1579985710}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6, y: 4, z: 5.56}
+  m_LocalPosition: {x: 1.46, y: -0.66, z: -1.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

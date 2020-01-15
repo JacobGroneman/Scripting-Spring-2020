@@ -44,6 +44,7 @@
               <e p="Position.cs" t="Include" />
             </e>
             <e p="Rotations" t="Include">
+              <e p="Aim.cs" t="Include" />
               <e p="SpawnCube.cs" t="Include" />
             </e>
           </e>
