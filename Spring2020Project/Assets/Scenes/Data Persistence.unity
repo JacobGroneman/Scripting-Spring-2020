@@ -682,10 +682,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1331597390}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09f6dd2ed06a5be449aeb8adf6548e24, type: 3}
+  m_Script: {fileID: 11500000, guid: 33fef87ca0dc28a449f9bf7cb9352085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sphere: {fileID: 142641441}
+  _greenSphere: {fileID: 142641441}
 --- !u!1 &1434187065
 GameObject:
   m_ObjectHideFlags: 0
