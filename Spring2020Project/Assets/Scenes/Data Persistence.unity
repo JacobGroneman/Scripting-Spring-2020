@@ -700,6 +700,7 @@ GameObject:
   - component: {fileID: 1434187069}
   - component: {fileID: 1434187070}
   - component: {fileID: 1434187071}
+  - component: {fileID: 1434187072}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -807,6 +808,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92d4491b7f3577447bc6f93317bd3c60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1434187072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434187065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24d5e0a78fa506d428c06ba01519f2b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Jacob
+  age: 21
+  speed: 41.5
 --- !u!1 &1468679815
 GameObject:
   m_ObjectHideFlags: 0
