@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\AimSlerp.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\SpawnCube.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\SpawnCubeEular.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Variables\Item.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Variables\Player.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
