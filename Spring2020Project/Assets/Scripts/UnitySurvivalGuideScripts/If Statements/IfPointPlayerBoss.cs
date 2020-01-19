@@ -6,6 +6,7 @@ public class IfPointPlayerBoss : MonoBehaviour
 {
     [SerializeField]
     private int _points;
+    private bool _saidAwesome = false;
 
     void Start()
     {
@@ -20,9 +21,10 @@ public class IfPointPlayerBoss : MonoBehaviour
             _points += 10;
         }
 
-        if (_points >= 50)
+        if (_points >= 50 && (_saidAwesome == false))
         {
             UnityEngine.Debug.Log("You are Awesome");
+            _saidAwesome = true;
         }
     }
 }

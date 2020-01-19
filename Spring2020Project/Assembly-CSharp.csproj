@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfPlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfPointPlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfPointPlayerBoss.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\PlayerElseIf.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\Aim.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\AimSlerp.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\SpawnCube.cs" />

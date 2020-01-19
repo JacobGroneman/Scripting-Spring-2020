@@ -47,6 +47,7 @@
               <e p="IfPlayer.cs" t="Include" />
               <e p="IfPointPlayer.cs" t="Include" />
               <e p="IfPointPlayerBoss.cs" t="Include" />
+              <e p="PlayerElseIf.cs" t="Include" />
             </e>
             <e p="Rotations" t="Include">
               <e p="Aim.cs" t="Include" />
