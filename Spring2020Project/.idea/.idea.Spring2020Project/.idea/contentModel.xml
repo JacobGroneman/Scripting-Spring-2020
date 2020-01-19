@@ -43,6 +43,11 @@
               <e p="PlayerMovement.cs" t="Include" />
               <e p="Position.cs" t="Include" />
             </e>
+            <e p="If Statements" t="Include">
+              <e p="IfPlayer.cs" t="Include" />
+              <e p="IfPointPlayer.cs" t="Include" />
+              <e p="IfPointPlayerBoss.cs" t="Include" />
+            </e>
             <e p="Rotations" t="Include">
               <e p="Aim.cs" t="Include" />
               <e p="AimSlerp.cs" t="Include" />
