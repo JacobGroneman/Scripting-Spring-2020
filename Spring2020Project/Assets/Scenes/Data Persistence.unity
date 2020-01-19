@@ -702,6 +702,8 @@ GameObject:
   - component: {fileID: 1434187071}
   - component: {fileID: 1434187072}
   - component: {fileID: 1434187073}
+  - component: {fileID: 1434187074}
+  - component: {fileID: 1434187075}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -840,6 +842,38 @@ MonoBehaviour:
   itemDescription: A big 'ol smelly fart
   itemSprite: {fileID: 0}
   attack: 1000
+--- !u!114 &1434187074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434187065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5ab124b4eca83b4694c5d259d5f74be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bill: 40
+  tip: 20
+  totalAmount: 0
+--- !u!114 &1434187075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434187065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 662fce5b7dd5fab439bff654eb8aa43f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quizGrade1: 0
+  quizGrade2: 0
+  quizGrade3: 0
+  quizGrade4: 0
+  quizGrade5: 0
 --- !u!1 &1468679815
 GameObject:
   m_ObjectHideFlags: 0
