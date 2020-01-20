@@ -89,6 +89,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfPointPlayerBoss.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfQuizCalculator.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfScorePlayer.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfSpeed.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\PlayerElseIf.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\Aim.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\AimSlerp.cs" />

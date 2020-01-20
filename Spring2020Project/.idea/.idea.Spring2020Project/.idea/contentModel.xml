@@ -49,6 +49,7 @@
               <e p="IfPointPlayerBoss.cs" t="Include" />
               <e p="IfQuizCalculator.cs" t="Include" />
               <e p="IfScorePlayer.cs" t="Include" />
+              <e p="IfSpeed.cs" t="Include" />
               <e p="PlayerElseIf.cs" t="Include" />
             </e>
             <e p="Rotations" t="Include">
