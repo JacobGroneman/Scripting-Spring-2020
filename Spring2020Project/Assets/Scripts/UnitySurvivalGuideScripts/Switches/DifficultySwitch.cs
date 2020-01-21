@@ -37,5 +37,15 @@ public class DifficultySwitch : MonoBehaviour
         {
             difficultyLevel += 1;
         }
+
+        if (difficultyLevel > 3)
+        {
+            difficultyLevel = 3;
+        }
+
+        if (difficultyLevel < 0)
+        {
+            difficultyLevel = 0;
+        }
     }
 }
