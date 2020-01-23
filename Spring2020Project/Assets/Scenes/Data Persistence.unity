@@ -416,7 +416,7 @@ Terrain:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227944046}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_TerrainData: {fileID: 15600000, guid: 227e92b1c19caee4f9d5a4bc25058fc1, type: 2}
   m_TreeDistance: 5000
@@ -580,6 +580,7 @@ GameObject:
   - component: {fileID: 1331597392}
   - component: {fileID: 1331597391}
   - component: {fileID: 1331597396}
+  - component: {fileID: 1331597397}
   m_Layer: 0
   m_Name: Playercube
   m_TagString: Player
@@ -686,6 +687,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _greenSphere: {fileID: 142641441}
+--- !u!114 &1331597397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331597390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3404820422dca044fb990739000f10e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colorSwitchingCube: {fileID: 1331597390}
 --- !u!1 &1434187065
 GameObject:
   m_ObjectHideFlags: 0

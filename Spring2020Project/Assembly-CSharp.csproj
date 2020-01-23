@@ -95,6 +95,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\AimSlerp.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\SpawnCube.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\SpawnCubeEular.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Switches\ColorSwitch.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Switches\DifficultySwitch.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Switches\PointsSwitch.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Variables\Item.cs" />
