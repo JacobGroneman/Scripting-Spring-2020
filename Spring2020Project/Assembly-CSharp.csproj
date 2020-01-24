@@ -99,6 +99,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Switches\DifficultySwitch.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Switches\PointsSwitch.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Switches\WeaponSwitch.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Switches\WeaponSwitch2.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Variables\Item.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Variables\Player.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Variables\QuizCalculator.cs" />
