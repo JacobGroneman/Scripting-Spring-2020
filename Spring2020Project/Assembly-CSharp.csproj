@@ -92,6 +92,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfSpeed.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\PlayerElseIf.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\ForLoop.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\VariousForLoops.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\Aim.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\AimSlerp.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\SpawnCube.cs" />

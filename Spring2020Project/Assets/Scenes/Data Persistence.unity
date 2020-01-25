@@ -718,6 +718,8 @@ GameObject:
   - component: {fileID: 1434187073}
   - component: {fileID: 1434187074}
   - component: {fileID: 1434187075}
+  - component: {fileID: 1434187076}
+  - component: {fileID: 1434187077}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -888,6 +890,30 @@ MonoBehaviour:
   quizGrade3: 0
   quizGrade4: 0
   quizGrade5: 0
+--- !u!114 &1434187076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434187065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cff921866011784448fd110468967d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1434187077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434187065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 701ce9156df8b0b4da876aeff41abd95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1468679815
 GameObject:
   m_ObjectHideFlags: 0

@@ -54,6 +54,7 @@
             </e>
             <e p="Loops" t="Include">
               <e p="ForLoop.cs" t="Include" />
+              <e p="VariousForLoops.cs" t="Include" />
             </e>
             <e p="Rotations" t="Include">
               <e p="Aim.cs" t="Include" />
