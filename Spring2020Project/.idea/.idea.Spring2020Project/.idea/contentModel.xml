@@ -58,6 +58,7 @@
               <e p="ForLoopBreak.cs" t="Include" />
               <e p="iEnumeratorForLoop.cs" t="Include" />
               <e p="LoopBreakChallenge.cs" t="Include" />
+              <e p="SpeedLoopChallenge.cs" t="Include" />
               <e p="VariousForLoops.cs" t="Include" />
               <e p="WhileLoops.cs" t="Include" />
             </e>
