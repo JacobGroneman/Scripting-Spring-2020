@@ -96,6 +96,8 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\ForLoopBreak.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\iEnumeratorForLoop.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\LoopBreakChallenge.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\SpeedChallenge2.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\SpeedDoWhile.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\SpeedLoopChallenge.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\VariousForLoops.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\WhileLoops.cs" />
