@@ -36,6 +36,8 @@
           </e>
           <e p="UnitySurvivalGuideScripts" t="Include">
             <e p="Arrays" t="Include">
+              <e p="ArrayLogic.cs" t="Include" />
+              <e p="ArrayRandomTest.cs" t="Include" />
               <e p="ArraySyntax.cs" t="Include" />
               <e p="ArrayTest.cs" t="Include" />
             </e>
