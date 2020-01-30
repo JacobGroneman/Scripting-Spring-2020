@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\UFO's Tutorial\SpawnPeaker.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\UFOController.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Arrays\ArrayForEach.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Arrays\ArrayForEachMyOwn.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Arrays\ArrayLogic.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Arrays\ArrayRandomTest.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Arrays\ArraySyntax.cs" />
