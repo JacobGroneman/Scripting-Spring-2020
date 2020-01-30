@@ -219,10 +219,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 290946023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14d205d57cf7f87458e9a2d8f3d7e7b0, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e2b3a6274105041bae48684f15fb5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _points: 0
+  selectionNumber: 0
+  names:
+  - Gill
+  - Bill
+  - Jill
+  - Phil
+  - Cecil
+  age: 050000000a0000000f0000001400000025000000
+  car:
+  - Bolt
+  - Dart
+  - Cruise
+  - Focus
+  - Fiesta
 --- !u!114 &290946029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,14 +245,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 290946023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db1f7e0f194a87246a75c4a6633888e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e91889d42ce2fe4fbc23a5c0eb704f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  quiz1: 0
-  quiz2: 0
-  quiz3: 0
-  quiz4: 0
-  quiz5: 0
+  itemID: 0100000002000000030000000400000005000000060000000700000008000000090000000a000000
+  items:
+  - shovel
+  - ax
+  - Sword
+  - Shield
+  - Mace
+  - Arrow
+  - Saber
+  - Wand
+  - ChinaStar
+  - Rock
 --- !u!1 &1207412946
 GameObject:
   m_ObjectHideFlags: 0
