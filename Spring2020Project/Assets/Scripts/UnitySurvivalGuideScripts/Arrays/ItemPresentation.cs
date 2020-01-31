@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 [System.Serializable]
 public partial class Item
@@ -191,6 +192,9 @@ public class ItemPresentation : MonoBehaviour
                         UnityEngine.Debug.Log("You Don't Have it.");
                     }
                 }
+                break;
+            default:
+                UnityEngine.Debug.Log("You Can Check For An Item By Pressing Keys 1-9");
                 break;
         }
     }
