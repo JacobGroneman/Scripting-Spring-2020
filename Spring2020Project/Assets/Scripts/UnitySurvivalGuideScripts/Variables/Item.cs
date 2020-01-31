@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : MonoBehaviour
+public partial class Item : MonoBehaviour
 {
     public string itemName;
     public string itemDescription;

@@ -42,6 +42,7 @@
               <e p="ArrayRandomTest.cs" t="Include" />
               <e p="ArraySyntax.cs" t="Include" />
               <e p="ArrayTest.cs" t="Include" />
+              <e p="ItemPresentation.cs" t="Include" />
             </e>
             <e p="Basics" t="Include">
               <e p="collectable.cs" t="Include" />

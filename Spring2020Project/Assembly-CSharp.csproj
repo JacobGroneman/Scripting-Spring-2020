@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Arrays\ArrayRandomTest.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Arrays\ArraySyntax.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Arrays\ArrayTest.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Arrays\ItemPresentation.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\collectable.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Crate.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Main.cs" />
