@@ -14,114 +14,49 @@ public partial class Item
 public class ItemPresentation : MonoBehaviour
 {
     public Item[] myItems;
+    public int itemCheckerNumber;
 
     void Start()
     {
         foreach (var item in myItems)
         {
             UnityEngine.Debug.Log(item.itemID + " " + item.name + " " + item.description);
-           
-            //I Need To Find A Shorter Way To Do This!! 
             
             if (Input.GetKeyDown(KeyCode.Alpha1)) ;
             {
-                if (item.itemID == 1) ;
-                {
-                    UnityEngine.Debug.Log("You have It!");
-                }
-                if (item.itemID != 1)
-                {
-                    UnityEngine.Debug.Log("You Don't Have it.");
-                }
+                itemCheckerNumber = 1;
             }
             if (Input.GetKeyDown(KeyCode.Alpha2)) ;
             {
-                if (item.itemID == 2) ;
-                {
-                    UnityEngine.Debug.Log("You have It!");
-                }
-                if (item.itemID != 2)
-                {
-                    UnityEngine.Debug.Log("You Don't Have it.");
-                }
+                itemCheckerNumber = 2;
             }
             if (Input.GetKeyDown(KeyCode.Alpha3)) ;
             {
-                if (item.itemID == 3) ;
-                {
-                    UnityEngine.Debug.Log("You have It!");
-                }
-                if (item.itemID != 3)
-                {
-                    UnityEngine.Debug.Log("You Don't Have it.");
-                }
+                itemCheckerNumber = 3;
             }
             if (Input.GetKeyDown(KeyCode.Alpha4)) ;
             {
-                if (item.itemID == 4) ;
-                {
-                    UnityEngine.Debug.Log("You have It!");
-                }
-                if (item.itemID != 4)
-                {
-                    UnityEngine.Debug.Log("You Don't Have it.");
-                }
+                itemCheckerNumber = 4;
             }
             if (Input.GetKeyDown(KeyCode.Alpha5)) ;
             {
-                if (item.itemID == 5) ;
-                {
-                    UnityEngine.Debug.Log("You have It!");
-                }
-                if (item.itemID != 5)
-                {
-                    UnityEngine.Debug.Log("You Don't Have it.");
-                }
+                itemCheckerNumber = 5;
             }
             if (Input.GetKeyDown(KeyCode.Alpha6)) ;
             {
-                if (item.itemID == 6) ;
-                {
-                    UnityEngine.Debug.Log("You have It!");
-                }
-                if (item.itemID != 6)
-                {
-                    UnityEngine.Debug.Log("You Don't Have it.");
-                }
+                itemCheckerNumber = 6;
             }
             if (Input.GetKeyDown(KeyCode.Alpha7)) ;
             {
-                if (item.itemID == 7) ;
-                {
-                    UnityEngine.Debug.Log("You have It!");
-                }
-                if (item.itemID != 7)
-                {
-                    UnityEngine.Debug.Log("You Don't Have it.");
-                }
+                itemCheckerNumber = 7;
             }
             if (Input.GetKeyDown(KeyCode.Alpha8)) ;
             {
-                if (item.itemID == 8) ;
-                {
-                    UnityEngine.Debug.Log("You have It!");
-
-                }
-                if (item.itemID != 8)
-                {
-                    UnityEngine.Debug.Log("You Don't Have it.");
-                }
+                itemCheckerNumber = 8;
             }
             if (Input.GetKeyDown(KeyCode.Alpha9)) ;
             {
-                if (item.itemID == 9) ;
-                {
-                    UnityEngine.Debug.Log("You have It!");
-                }
-                if (item.itemID != 9)
-                {
-                    UnityEngine.Debug.Log("You Don't Have it.");
-                }
+                itemCheckerNumber = 9;
             }
         }
     }
@@ -136,6 +71,127 @@ public class ItemPresentation : MonoBehaviour
                 UnityEngine.Debug.Log(myItems[randomID].itemID + " " + myItems[randomID].name + " " +
                                       myItems[randomID].description);
             }
+        }
+        switch (itemCheckerNumber)
+        {
+            case 1:
+                foreach (var item in myItems)
+                {
+                    if (item.itemID == 1) ;
+                    {
+                        UnityEngine.Debug.Log("You have It!");
+                    }
+                    if (item.itemID != 1)
+                    {
+                        UnityEngine.Debug.Log("You Don't Have it.");
+                    }
+                }
+                break;
+            case 2:
+                foreach (var item in myItems)
+                {
+                    if (item.itemID == 2) ;
+                    {
+                        UnityEngine.Debug.Log("You have It!");
+                    }
+                    if (item.itemID != 2)
+                    {
+                        UnityEngine.Debug.Log("You Don't Have it.");
+                    }
+                }
+                break;
+            case 3:
+                foreach (var item in myItems)
+                {
+                    if (item.itemID == 3) ;
+                    {
+                        UnityEngine.Debug.Log("You have It!");
+                    }
+                    if (item.itemID != 3)
+                    {
+                        UnityEngine.Debug.Log("You Don't Have it.");
+                    }
+                }
+                break;
+            case 4:
+                foreach (var item in myItems)
+                {
+                    if (item.itemID == 4) ;
+                    {
+                        UnityEngine.Debug.Log("You have It!");
+                    }
+                    if (item.itemID != 4)
+                    {
+                        UnityEngine.Debug.Log("You Don't Have it.");
+                    }
+                }
+                break;
+            case 5:
+                foreach (var item in myItems)
+                {
+                    if (item.itemID == 5) ;
+                    {
+                        UnityEngine.Debug.Log("You have It!");
+                    }
+                    if (item.itemID != 5)
+                    {
+                        UnityEngine.Debug.Log("You Don't Have it.");
+                    }
+                }
+                break;
+            case 6:
+                foreach (var item in myItems)
+                {
+                    if (item.itemID == 6) ;
+                    {
+                        UnityEngine.Debug.Log("You have It!");
+                    }
+                    if (item.itemID != 6)
+                    {
+                        UnityEngine.Debug.Log("You Don't Have it.");
+                    }
+                }
+                break;
+            case 7:
+                foreach (var item in myItems)
+                {
+                    if (item.itemID == 7) ;
+                    {
+                        UnityEngine.Debug.Log("You have It!");
+                    }
+                    if (item.itemID != 7)
+                    {
+                        UnityEngine.Debug.Log("You Don't Have it.");
+                    }
+                }
+                break;
+            case 8:
+                foreach (var item in myItems)
+                {
+                    if (item.itemID == 8) ;
+                    {
+                        UnityEngine.Debug.Log("You have It!");
+
+                    }
+                    if (item.itemID != 8)
+                    {
+                        UnityEngine.Debug.Log("You Don't Have it.");
+                    }
+                }
+                break;
+            case 9:
+                foreach (var item in myItems)
+                {
+                    if (item.itemID == 9) ;
+                    {
+                        UnityEngine.Debug.Log("You have It!");
+                    }
+                    if (item.itemID != 9)
+                    {
+                        UnityEngine.Debug.Log("You Don't Have it.");
+                    }
+                }
+                break;
         }
     }
 }
