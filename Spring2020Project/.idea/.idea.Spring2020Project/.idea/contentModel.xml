@@ -43,7 +43,7 @@
               <e p="ArraySyntax.cs" t="Include" />
               <e p="ArrayTest.cs" t="Include" />
               <e p="GameObjectArray.cs" t="Include" />
-              <e p="ItemPresentation.cs" t="Include" />
+              <e p="ItemPresentationFixed.cs" t="Include" />
             </e>
             <e p="Basics" t="Include">
               <e p="collectable.cs" t="Include" />
@@ -52,6 +52,9 @@
               <e p="Pause.cs" t="Include" />
               <e p="PlayerMovement.cs" t="Include" />
               <e p="Position.cs" t="Include" />
+            </e>
+            <e p="Functions and Methods" t="Include">
+              <e p="MethodSyntax.cs" t="Include" />
             </e>
             <e p="If Statements" t="Include">
               <e p="IfPlayer.cs" t="Include" />
