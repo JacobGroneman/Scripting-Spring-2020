@@ -58,6 +58,7 @@
               <e p="MethodParameters.cs" t="Include" />
               <e p="MethodSyntax.cs" t="Include" />
               <e p="ReturnFunction.cs" t="Include" />
+              <e p="TransformPositions.cs" t="Include" />
             </e>
             <e p="If Statements" t="Include">
               <e p="IfPlayer.cs" t="Include" />
