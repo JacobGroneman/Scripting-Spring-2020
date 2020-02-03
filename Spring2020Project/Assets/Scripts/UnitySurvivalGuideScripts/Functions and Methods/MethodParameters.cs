@@ -9,7 +9,7 @@ public class MethodParameters : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q));
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             DamageAmount(5);
         }
@@ -18,9 +18,9 @@ public class MethodParameters : MonoBehaviour
     
     private void DamageAmount(int damage)
     {
-        health =- damage;
+        health -= damage;
         
-        if (health < 1);
+        if (health <= 1)
         {
             health = 0;
             Destroy(this.gameObject);
