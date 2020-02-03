@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ObjectColorParameter.cs" />
     <Compile Include="Assets\Scripts\Brackeys bullet tutorial\Bullet.cs" />
     <Compile Include="Assets\Scripts\Brackeys bullet tutorial\Enemy.cs" />
     <Compile Include="Assets\Scripts\Brackeys bullet tutorial\WeaponPrefabVersion.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Position.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MethodParameters.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MethodSyntax.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\ReturnFunction.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfPlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfPointPlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfPointPlayerBoss.cs" />

@@ -6,6 +6,7 @@
     <e p="C:\Users\jacob\OneDrive\Utah Valley University\Scripting\Scripting Spring 2020\Spring2020Project" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ObjectColorParameter.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Brackeys bullet tutorial" t="Include">
             <e p="Bullet.cs" t="Include" />
@@ -56,6 +57,7 @@
             <e p="Functions and Methods" t="Include">
               <e p="MethodParameters.cs" t="Include" />
               <e p="MethodSyntax.cs" t="Include" />
+              <e p="ReturnFunction.cs" t="Include" />
             </e>
             <e p="If Statements" t="Include">
               <e p="IfPlayer.cs" t="Include" />
