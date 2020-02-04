@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Position.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MethodParameters.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MethodPlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MethodSyntax.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\ReturnFunction.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\TransformPositions.cs" />
