@@ -96,6 +96,8 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MethodParameters.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MethodPlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MethodSyntax.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MyOwnColorChanger.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\PlayerColorReturn.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\ReturnFunction.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\TransformPositions.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfPlayer.cs" />

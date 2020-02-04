@@ -58,6 +58,7 @@
               <e p="MethodParameters.cs" t="Include" />
               <e p="MethodPlayer.cs" t="Include" />
               <e p="MethodSyntax.cs" t="Include" />
+              <e p="PlayerColorReturn.cs" t="Include" />
               <e p="ReturnFunction.cs" t="Include" />
               <e p="TransformPositions.cs" t="Include" />
             </e>
