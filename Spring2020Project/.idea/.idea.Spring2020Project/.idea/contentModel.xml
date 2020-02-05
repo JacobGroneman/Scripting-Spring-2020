@@ -55,10 +55,14 @@
               <e p="Position.cs" t="Include" />
             </e>
             <e p="Functions and Methods" t="Include">
+              <e p="BlackColorChanger.cs" t="Include" />
+              <e p="ColorMethodPractice.cs" t="Include" />
               <e p="MethodParameters.cs" t="Include" />
               <e p="MethodPlayer.cs" t="Include" />
               <e p="MethodSyntax.cs" t="Include" />
+              <e p="MyOwnColorChanger.cs" t="Include" />
               <e p="PlayerColorReturn.cs" t="Include" />
+              <e p="PutThemToZero.cs" t="Include" />
               <e p="ReturnFunction.cs" t="Include" />
               <e p="TransformPositions.cs" t="Include" />
             </e>

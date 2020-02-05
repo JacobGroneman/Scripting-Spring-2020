@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class MyOwnColorChanger : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject[] ballBasket;
+    
     void Start()
     {
-        
+        ballBasket = ColorThem();
     }
 
-    // Update is called once per frame
-    void Update()
+    GameObject[] ColorThem()
     {
+        GameObject[] balls = GameObject.FindGameObjectsWithTag("Player");
         
+        foreach (var ball in balls)
+        {
+            ball.GetComponent<MeshRenderer>().material.color = new Color(Random.value, Random.value, Random.value);
+        }
+        
+        return balls;
     }
 }

@@ -93,11 +93,14 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Pause.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Position.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\BlackColorChanger.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\ColorMethodPractice.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MethodParameters.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MethodPlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MethodSyntax.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MyOwnColorChanger.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\PlayerColorReturn.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\PutThemToZero.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\ReturnFunction.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\TransformPositions.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfPlayer.cs" />
