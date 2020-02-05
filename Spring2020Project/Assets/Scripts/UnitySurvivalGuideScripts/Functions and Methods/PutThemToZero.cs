@@ -7,17 +7,17 @@ public class PutThemToZero : MonoBehaviour
     public GameObject[] balls;
     
     void Start()
-    {
-        balls = PositionThemToZero();
+    { 
+        PositionThemToZero();
     }
 
     public GameObject[] PositionThemToZero()
     {
-        GameObject[] theBalls = GameObject.FindGameObjectsWithTag("Player");
-        foreach (var ball in theBalls)
+        balls = GameObject.FindGameObjectsWithTag("Player");
+        foreach (var ball in balls)
         {
             ball.transform.position = Vector3.zero;
         }
-        return theBalls;
+        return balls;
     }
 }
