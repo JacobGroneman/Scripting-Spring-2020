@@ -62,6 +62,7 @@
               <e p="MethodSyntax.cs" t="Include" />
               <e p="MyOwnColorChanger.cs" t="Include" />
               <e p="PlayerColorReturn.cs" t="Include" />
+              <e p="PositionArrayMethod.cs" t="Include" />
               <e p="PutThemToZero.cs" t="Include" />
               <e p="ReturnFunction.cs" t="Include" />
               <e p="TransformPositions.cs" t="Include" />
