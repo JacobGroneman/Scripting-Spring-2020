@@ -54,6 +54,9 @@
               <e p="PlayerMovement.cs" t="Include" />
               <e p="Position.cs" t="Include" />
             </e>
+            <e p="Classes" t="Include">
+              <e p="CustomClasses.cs" t="Include" />
+            </e>
             <e p="Functions and Methods" t="Include">
               <e p="BlackColorChanger.cs" t="Include" />
               <e p="ColorMethodPractice.cs" t="Include" />
