@@ -56,6 +56,7 @@
             </e>
             <e p="Classes" t="Include">
               <e p="CustomClasses.cs" t="Include" />
+              <e p="CustomerDatabaseChallenge.cs" t="Include" />
               <e p="Item1.cs" t="Include" />
               <e p="ItemDatabase.cs" t="Include" />
             </e>

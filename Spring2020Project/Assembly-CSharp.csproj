@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Position.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\CustomClasses.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\CustomerDatabaseChallenge.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\Item1.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\ItemDatabase.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\BlackColorChanger.cs" />

@@ -204,15 +204,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 290946023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8828f881ff45c52429cc7a21cf6bcbf0, type: 3}
+  m_Script: {fileID: 11500000, guid: 0059e3849f0b6b04488f9bb86f4af0c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positions:
-  - {x: 2, y: 0, z: 0}
-  - {x: 4, y: 2, z: 0}
-  - {x: 6, y: 3, z: 0}
-  - {x: 8, y: 4, z: 0}
-  - {x: 10, y: 5, z: 0}
+  ted:
+    firstName: 
+    lastName: 
+    gender: 0
+    age: 0
+    occupation: 
+  ash:
+    firstName: 
+    lastName: 
+    gender: 0
+    age: 0
+    occupation: 
+  raquel:
+    firstName: 
+    lastName: 
+    gender: 0
+    age: 0
+    occupation: 
 --- !u!1 &604945778
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,7 +234,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 604945780}
-  - component: {fileID: 604945779}
   m_Layer: 0
   m_Name: ItemDatabase
   m_TagString: Untagged
@@ -230,18 +241,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &604945779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 604945778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed11ad6a4758a71429baf05db9cda378, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &604945780
 Transform:
   m_ObjectHideFlags: 0
