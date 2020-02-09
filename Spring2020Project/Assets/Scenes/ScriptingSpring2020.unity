@@ -123,7 +123,6 @@ GameObject:
   - component: {fileID: 290946026}
   - component: {fileID: 290946025}
   - component: {fileID: 290946024}
-  - component: {fileID: 290946027}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -195,36 +194,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 46.122, y: 0, z: 0}
---- !u!114 &290946027
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 290946023}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0059e3849f0b6b04488f9bb86f4af0c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ted:
-    firstName: 
-    lastName: 
-    gender: 0
-    age: 0
-    occupation: 
-  ash:
-    firstName: 
-    lastName: 
-    gender: 0
-    age: 0
-    occupation: 
-  raquel:
-    firstName: 
-    lastName: 
-    gender: 0
-    age: 0
-    occupation: 
 --- !u!1 &1207412946
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,11 +295,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c64e239e6e424ed45a2a63cec387717e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireBlast:
-    spellName: 
-    levelRequired: 0
-    itemIDRequired: 0
-    experienceGained: 0
+  spells:
+  - spellName: Fire Blast
+    levelRequired: 1
+    itemIDRequired: 12
+    experienceGained: 35
+  - spellName: Ice Blast
+    levelRequired: 3
+    itemIDRequired: 45
+    experienceGained: 43
+  level: 1
   ExpPoints: 0
 --- !u!65 &1407582114
 BoxCollider:

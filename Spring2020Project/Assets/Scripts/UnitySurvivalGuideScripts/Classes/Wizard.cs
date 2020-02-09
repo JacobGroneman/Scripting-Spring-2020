@@ -1,30 +1,31 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Wizard : MonoBehaviour
 {
-    public Spell fireBlast;
-    public int level;
+    public Spell[] spells;
+    public int level = 1;
     public int ExpPoints;
     
-    void Start()
-    { 
-        fireBlast = new Spell("Fire Blast", 2, 4, 2);   
-    }
-
-   
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            fireBlast.CastSpell();
-            ExpPoints += fireBlast.experienceGained;
+            foreach (var spell in spells)
+            {
+                if (spell.levelRequired == level)
+                {
+                    spell.CastSpell();
+                    ExpPoints += spell.experienceGained;
+                }
+            }
         }
-
-        if (ExpPoints >= 50)
+        if (ExpPoints >= 1000)
         {
-            level = 3; 
+            level = 3;
         }
     }
 }

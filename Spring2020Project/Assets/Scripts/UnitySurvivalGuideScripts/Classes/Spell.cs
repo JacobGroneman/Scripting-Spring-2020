@@ -22,6 +22,5 @@ public class Spell
    public void CastSpell()
    {
       UnityEngine.Debug.Log("Spelled Casted: " + this.spellName);
-      
    }
 }
