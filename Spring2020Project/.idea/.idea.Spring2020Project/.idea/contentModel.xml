@@ -59,6 +59,8 @@
               <e p="CustomerDatabaseChallenge.cs" t="Include" />
               <e p="Item1.cs" t="Include" />
               <e p="ItemDatabase.cs" t="Include" />
+              <e p="Spell.cs" t="Include" />
+              <e p="Wizard.cs" t="Include" />
             </e>
             <e p="Functions and Methods" t="Include">
               <e p="BlackColorChanger.cs" t="Include" />
