@@ -55,16 +55,28 @@
               <e p="Position.cs" t="Include" />
             </e>
             <e p="Classes" t="Include">
-              <e p="Animals.cs" t="Include" />
+              <e p="BankInheritance" t="Include">
+                <e p="Bank.cs" t="Include" />
+                <e p="BankBehavior.cs" t="Include" />
+                <e p="FederalCreditUnion.cs" t="Include" />
+                <e p="FederalCreditUnionBehavior.cs" t="Include" />
+              </e>
               <e p="CustomClasses.cs" t="Include" />
               <e p="CustomerDatabaseChallenge.cs" t="Include" />
-              <e p="Item1.cs" t="Include" />
-              <e p="ItemDatabase.cs" t="Include" />
-              <e p="LivingThings.cs" t="Include" />
-              <e p="LivingThingsDatabase.cs" t="Include" />
-              <e p="Plants.cs" t="Include" />
-              <e p="Spell.cs" t="Include" />
-              <e p="Wizard.cs" t="Include" />
+              <e p="ItemClass" t="Include">
+                <e p="Item1.cs" t="Include" />
+                <e p="ItemDatabase.cs" t="Include" />
+              </e>
+              <e p="LivingThingsInheritance" t="Include">
+                <e p="Animals.cs" t="Include" />
+                <e p="LivingThings.cs" t="Include" />
+                <e p="LivingThingsDatabase.cs" t="Include" />
+                <e p="Plants.cs" t="Include" />
+              </e>
+              <e p="SpellClass" t="Include">
+                <e p="Spell.cs" t="Include" />
+                <e p="Wizard.cs" t="Include" />
+              </e>
             </e>
             <e p="Functions and Methods" t="Include">
               <e p="BlackColorChanger.cs" t="Include" />
