@@ -105,6 +105,9 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\LivingThingsInheritance\LivingThings.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\LivingThingsInheritance\LivingThingsDatabase.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\LivingThingsInheritance\Plants.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\PokemonLevelPractice\Move.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\PokemonLevelPractice\Pokemon.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\PokemonLevelPractice\Trainer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\SpellClass\Spell.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\SpellClass\Wizard.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\BlackColorChanger.cs" />
