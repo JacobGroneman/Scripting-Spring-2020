@@ -55,6 +55,7 @@
               <e p="Position.cs" t="Include" />
             </e>
             <e p="Classes" t="Include">
+              <e p="AnimalOverrides.cs" t="Include" />
               <e p="BankInheritance" t="Include">
                 <e p="Bank.cs" t="Include" />
                 <e p="BankBehavior.cs" t="Include" />

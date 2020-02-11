@@ -93,6 +93,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Pause.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Basics\Position.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\AnimalOverrides.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\BankInheritance\Bank.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\BankInheritance\BankBehavior.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\BankInheritance\FederalCreditUnion.cs" />
