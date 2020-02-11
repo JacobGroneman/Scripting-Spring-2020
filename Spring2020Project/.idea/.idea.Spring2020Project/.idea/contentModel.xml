@@ -83,6 +83,7 @@
                 <e p="Spell.cs" t="Include" />
                 <e p="Wizard.cs" t="Include" />
               </e>
+              <e p="StructDataExample.cs" t="Include" />
             </e>
             <e p="Functions and Methods" t="Include">
               <e p="BlackColorChanger.cs" t="Include" />
