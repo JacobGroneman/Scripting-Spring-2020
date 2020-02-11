@@ -7,19 +7,33 @@ public class Move
 {
     public string
         name,
-        description;
+        description,
+        category;
 
     public int
+        type,
         pp,
-        type01,
-        type02;
+        power,
+        accuracy;
 
-    public Move(string name, string description, int pp, int type01, int type02)
+    public Move
+    (string name, string description, int type, string category,
+        int pp, int power, int accuracy)
     {
         this.name = name;
         this.description = description;
+        this.type = type;
+        this.category = category;
         this.pp = pp;
-        this.type01 = type01;
-        this.type02 = type02;
+        this.power = power;
+        this.accuracy = accuracy;
+    }
+    
+    public class MoveDataBase
+    {
+        public Move darkPulse = new Move
+            ("Dark Pulse", "The user releases a horrible aura " +
+                            "imbued with dark thoughts. It may also make the target flinch.",
+            16, "Special", 15, 80, 100);
     }
 }
