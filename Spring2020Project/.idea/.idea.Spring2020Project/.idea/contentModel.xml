@@ -96,6 +96,9 @@
               <e p="PositionArrayMethod.cs" t="Include" />
               <e p="PutThemToZero.cs" t="Include" />
               <e p="ReturnFunction.cs" t="Include" />
+              <e p="Static Types" t="Include">
+                <e p="StaticExample.cs" t="Include" />
+              </e>
               <e p="TransformPositions.cs" t="Include" />
             </e>
             <e p="If Statements" t="Include">
