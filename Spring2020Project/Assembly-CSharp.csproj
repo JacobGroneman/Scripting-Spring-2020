@@ -122,6 +122,9 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\PositionArrayMethod.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\PutThemToZero.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\ReturnFunction.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\Static Types\StaticEnemyData\Enemy2.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\Static Types\StaticEnemyData\SpawnManager.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\Static Types\StaticEnemyData\UIManager.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\Static Types\StaticExample.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\TransformPositions.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfPlayer.cs" />

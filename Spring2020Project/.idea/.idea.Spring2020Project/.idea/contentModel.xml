@@ -97,6 +97,11 @@
               <e p="PutThemToZero.cs" t="Include" />
               <e p="ReturnFunction.cs" t="Include" />
               <e p="Static Types" t="Include">
+                <e p="StaticEnemyData" t="Include">
+                  <e p="Enemy2.cs" t="Include" />
+                  <e p="SpawnManager.cs" t="Include" />
+                  <e p="UIManager.cs" t="Include" />
+                </e>
                 <e p="StaticExample.cs" t="Include" />
               </e>
               <e p="TransformPositions.cs" t="Include" />
