@@ -105,6 +105,7 @@
                 </e>
                 <e p="StaticExample.cs" t="Include" />
                 <e p="UtilityHelperClass" t="Include">
+                  <e p="StaticColorChallenge.cs" t="Include" />
                   <e p="UPlayer.cs" t="Include" />
                   <e p="Utility.cs" t="Include" />
                 </e>

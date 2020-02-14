@@ -127,6 +127,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\Static Types\StaticEnemyData\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\Static Types\StaticEnemyData\UIManager.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\Static Types\StaticExample.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\Static Types\UtilityHelperClass\StaticColorChallenge.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\Static Types\UtilityHelperClass\UPlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\Static Types\UtilityHelperClass\Utility.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\TransformPositions.cs" />
