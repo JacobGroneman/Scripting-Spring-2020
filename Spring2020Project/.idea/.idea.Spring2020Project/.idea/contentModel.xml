@@ -104,6 +104,10 @@
                   <e p="UIManager.cs" t="Include" />
                 </e>
                 <e p="StaticExample.cs" t="Include" />
+                <e p="UtilityHelperClass" t="Include">
+                  <e p="UPlayer.cs" t="Include" />
+                  <e p="Utility.cs" t="Include" />
+                </e>
               </e>
               <e p="TransformPositions.cs" t="Include" />
             </e>
