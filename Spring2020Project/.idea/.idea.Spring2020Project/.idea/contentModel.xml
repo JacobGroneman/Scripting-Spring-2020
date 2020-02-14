@@ -99,6 +99,7 @@
               <e p="Static Types" t="Include">
                 <e p="StaticEnemyData" t="Include">
                   <e p="Enemy2.cs" t="Include" />
+                  <e p="InstanceVsStatic.cs" t="Include" />
                   <e p="SpawnManager.cs" t="Include" />
                   <e p="UIManager.cs" t="Include" />
                 </e>
