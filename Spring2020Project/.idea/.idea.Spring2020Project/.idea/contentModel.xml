@@ -96,20 +96,6 @@
               <e p="PositionArrayMethod.cs" t="Include" />
               <e p="PutThemToZero.cs" t="Include" />
               <e p="ReturnFunction.cs" t="Include" />
-              <e p="Static Types" t="Include">
-                <e p="StaticEnemyData" t="Include">
-                  <e p="Enemy2.cs" t="Include" />
-                  <e p="InstanceVsStatic.cs" t="Include" />
-                  <e p="SpawnManager.cs" t="Include" />
-                  <e p="UIManager.cs" t="Include" />
-                </e>
-                <e p="StaticExample.cs" t="Include" />
-                <e p="UtilityHelperClass" t="Include">
-                  <e p="StaticColorChallenge.cs" t="Include" />
-                  <e p="UPlayer.cs" t="Include" />
-                  <e p="Utility.cs" t="Include" />
-                </e>
-              </e>
               <e p="TransformPositions.cs" t="Include" />
             </e>
             <e p="If Statements" t="Include">
@@ -138,6 +124,21 @@
               <e p="AimSlerp.cs" t="Include" />
               <e p="SpawnCube.cs" t="Include" />
               <e p="SpawnCubeEular.cs" t="Include" />
+            </e>
+            <e p="Static Types" t="Include">
+              <e p="StaticConstructor.cs" t="Include" />
+              <e p="StaticEnemyData" t="Include">
+                <e p="Enemy2.cs" t="Include" />
+                <e p="InstanceVsStatic.cs" t="Include" />
+                <e p="SpawnManager.cs" t="Include" />
+                <e p="UIManager.cs" t="Include" />
+              </e>
+              <e p="StaticExample.cs" t="Include" />
+              <e p="UtilityHelperClass" t="Include">
+                <e p="StaticColorChallenge.cs" t="Include" />
+                <e p="UPlayer.cs" t="Include" />
+                <e p="Utility.cs" t="Include" />
+              </e>
             </e>
             <e p="Switches" t="Include">
               <e p="ColorSwitch.cs" t="Include" />
