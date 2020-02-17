@@ -140,6 +140,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\SpeedLoopChallenge.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\VariousForLoops.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\WhileLoops.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\NameSpaces\NameSpaceExample.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Properties\AutoProperty.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Properties\ChallengeDeclareProperties.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Properties\GetSetProperty.cs" />
