@@ -130,6 +130,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfScorePlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfSpeed.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\PlayerElseIf.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Lists\ListSyntax.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\DoWhileLoop.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\ForLoop.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\ForLoopBreak.cs" />

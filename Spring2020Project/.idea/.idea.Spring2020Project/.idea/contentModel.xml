@@ -107,6 +107,9 @@
               <e p="IfSpeed.cs" t="Include" />
               <e p="PlayerElseIf.cs" t="Include" />
             </e>
+            <e p="Lists" t="Include">
+              <e p="ListSyntax.cs" t="Include" />
+            </e>
             <e p="Loops" t="Include">
               <e p="DoWhileLoop.cs" t="Include" />
               <e p="ForLoop.cs" t="Include" />
