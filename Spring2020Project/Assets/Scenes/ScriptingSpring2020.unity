@@ -220,7 +220,6 @@ GameObject:
   - component: {fileID: 1153184236}
   - component: {fileID: 1153184235}
   - component: {fileID: 1153184234}
-  - component: {fileID: 1153184239}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -237,9 +236,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1153184233}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ba8ca02c5fda374a833fc09e740ed0a, type: 3}
+  m_Script: {fileID: 11500000, guid: f1a47cfc88767644fbd24b8fd5cf7d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  names:
+  - Jennifer
+  - Bill
+  - Jerry
+  - Kim
+  - Brodane
+  - Santa
+  - Darth Brooks
 --- !u!65 &1153184235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -312,20 +319,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1153184239
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153184233}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 499c406a5b30d5c48ad02cd0d712bfbf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amounts: 
-  stuff: []
 --- !u!1 &1207412946
 GameObject:
   m_ObjectHideFlags: 0

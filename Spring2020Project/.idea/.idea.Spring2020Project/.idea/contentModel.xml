@@ -109,6 +109,7 @@
             </e>
             <e p="Lists" t="Include">
               <e p="ListSyntax.cs" t="Include" />
+              <e p="YouHaveBeenNamedChallenge.cs" t="Include" />
             </e>
             <e p="Loops" t="Include">
               <e p="DoWhileLoop.cs" t="Include" />
