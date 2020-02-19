@@ -108,6 +108,7 @@
               <e p="PlayerElseIf.cs" t="Include" />
             </e>
             <e p="Lists" t="Include">
+              <e p="BuildObjectListChallenge.cs" t="Include" />
               <e p="ListSyntax.cs" t="Include" />
               <e p="YouHaveBeenNamedChallenge.cs" t="Include" />
             </e>
