@@ -131,6 +131,9 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfSpeed.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\PlayerElseIf.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Lists\BuildObjectListChallenge.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Lists\ItemDBSystem\lItem.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Lists\ItemDBSystem\lItemDatabase.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Lists\ItemDBSystem\lPlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Lists\ListSyntax.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Lists\YouHaveBeenNamedChallenge.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Loops\DoWhileLoop.cs" />
