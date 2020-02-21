@@ -114,6 +114,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\StructDataExample.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\EnumSyntax.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\MyOwnEnumCycle.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\BlackColorChanger.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\ColorMethodPractice.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\MethodParameters.cs" />

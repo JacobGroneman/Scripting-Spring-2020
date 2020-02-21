@@ -88,6 +88,7 @@
             <e p="Enums" t="Include">
               <e p="EnemyAI.cs" t="Include" />
               <e p="EnumSyntax.cs" t="Include" />
+              <e p="MyOwnEnumCycle.cs" t="Include" />
             </e>
             <e p="Functions and Methods" t="Include">
               <e p="BlackColorChanger.cs" t="Include" />
