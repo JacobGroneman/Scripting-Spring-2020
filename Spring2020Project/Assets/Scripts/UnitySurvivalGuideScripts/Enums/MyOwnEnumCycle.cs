@@ -32,7 +32,7 @@ public class MyOwnEnumCycle : MonoBehaviour
                 ChangeColor(ColorCycle.Orange);
                 break;
             case ColorCycle.Orange:
-                GetColor(new UnityEngine.Color(255, 127, 80));
+                GetColor(new UnityEngine.Color32(254, 161, 0, 1));
                 ChangeColor(ColorCycle.Yellow);
                 break;
             case ColorCycle.Yellow:
