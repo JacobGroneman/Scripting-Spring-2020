@@ -112,6 +112,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\SpellClass\Spell.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\SpellClass\Wizard.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\StructDataExample.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\EnumSyntax.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\BlackColorChanger.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\ColorMethodPractice.cs" />

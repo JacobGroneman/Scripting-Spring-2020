@@ -86,6 +86,7 @@
               <e p="StructDataExample.cs" t="Include" />
             </e>
             <e p="Enums" t="Include">
+              <e p="EnemyAI.cs" t="Include" />
               <e p="EnumSyntax.cs" t="Include" />
             </e>
             <e p="Functions and Methods" t="Include">
