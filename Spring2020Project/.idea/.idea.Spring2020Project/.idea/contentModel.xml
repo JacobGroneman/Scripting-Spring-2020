@@ -90,6 +90,7 @@
               <e p="EnumCustomClass" t="Include">
                 <e p="EnumItem.cs" t="Include" />
                 <e p="EnumItemDB.cs" t="Include" />
+                <e p="LevelSelector.cs" t="Include" />
               </e>
               <e p="EnumSyntax.cs" t="Include" />
               <e p="MyOwnEnumCycle.cs" t="Include" />

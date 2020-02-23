@@ -115,6 +115,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\EnumCustomClass\EnumItem.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\EnumCustomClass\EnumItemDB.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\EnumCustomClass\LevelSelector.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\EnumSyntax.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\MyOwnEnumCycle.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Functions and Methods\BlackColorChanger.cs" />
