@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\jacob\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -85,11 +85,18 @@
               </e>
               <e p="StructDataExample.cs" t="Include" />
             </e>
+            <e p="Dictionary" t="Include">
+              <e p="DictionarySyntax" t="Include">
+                <e p="DictionarySyntax.cs" t="Include" />
+                <e p="DictItem.cs" t="Include" />
+              </e>
+            </e>
             <e p="Enums" t="Include">
               <e p="EnemyAI.cs" t="Include" />
               <e p="EnumCustomClass" t="Include">
                 <e p="EnumItem.cs" t="Include" />
                 <e p="EnumItemDB.cs" t="Include" />
+                <e p="LevelSelector.cs" t="Include" />
               </e>
               <e p="EnumSyntax.cs" t="Include" />
               <e p="MyOwnEnumCycle.cs" t="Include" />
