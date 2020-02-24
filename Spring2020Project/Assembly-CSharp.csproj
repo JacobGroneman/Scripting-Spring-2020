@@ -115,6 +115,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Dictionary\DictionaryLoop.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Dictionary\DictionarySyntax\DictionarySyntax.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Dictionary\DictionarySyntax\DictItem.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Dictionary\DictPlayerConnections.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\EnumCustomClass\EnumItem.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Enums\EnumCustomClass\EnumItemDB.cs" />
