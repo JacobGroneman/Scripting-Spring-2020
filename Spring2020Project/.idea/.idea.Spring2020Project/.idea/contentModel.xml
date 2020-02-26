@@ -36,6 +36,9 @@
             <e p="UFOController.cs" t="Include" />
           </e>
           <e p="UnitySurvivalGuideScripts" t="Include">
+            <e p="Abstract Classes" t="Include">
+              <e p="AbstractEnemy.cs" t="Include" />
+            </e>
             <e p="Arrays" t="Include">
               <e p="ArrayForEach.cs" t="Include" />
               <e p="ArrayForEachMyOwn.cs" t="Include" />
