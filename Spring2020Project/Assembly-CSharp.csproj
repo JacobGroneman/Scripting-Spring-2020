@@ -79,6 +79,9 @@
     <Compile Include="Assets\Scripts\UFO's Tutorial\Spawner.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\SpawnPeaker.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\UFOController.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Abstract Classes\AbstractChallenge\AbEmployee.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Abstract Classes\AbstractChallenge\AbFullTime.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Abstract Classes\AbstractChallenge\AbPartTime.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Abstract Classes\AbstractEnemy.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Arrays\ArrayForEach.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Arrays\ArrayForEachMyOwn.cs" />

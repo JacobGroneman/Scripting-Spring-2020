@@ -37,6 +37,12 @@
           </e>
           <e p="UnitySurvivalGuideScripts" t="Include">
             <e p="Abstract Classes" t="Include">
+              <e p="AbstractChallenge" t="Include">
+                <e p="AbEmployee.cs" t="Include" />
+                <e p="AbFullTime.cs" t="Include" />
+                <e p="AbPartTime.cs" t="Include" />
+                <e p="AbstractChallenge.cs" t="Include" />
+              </e>
               <e p="AbstractEnemy.cs" t="Include" />
             </e>
             <e p="Arrays" t="Include">
