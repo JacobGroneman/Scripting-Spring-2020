@@ -135,10 +135,15 @@
               <e p="PlayerElseIf.cs" t="Include" />
             </e>
             <e p="Interfaces" t="Include">
-              <e p="IDamagable.cs" t="Include" />
-              <e p="InterEnemy.cs" t="Include" />
-              <e p="InterPlayer.cs" t="Include" />
-              <e p="IShootable.cs" t="Include" />
+              <e p="Generics" t="Include">
+                <e p="IManipulateable.cs" t="Include" />
+              </e>
+              <e p="Interface Syntax" t="Include">
+                <e p="IDamagable.cs" t="Include" />
+                <e p="InterEnemy.cs" t="Include" />
+                <e p="InterPlayer.cs" t="Include" />
+                <e p="IShootable.cs" t="Include" />
+              </e>
             </e>
             <e p="Lists" t="Include">
               <e p="BuildObjectListChallenge.cs" t="Include" />

@@ -145,10 +145,11 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfScorePlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\IfSpeed.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\If Statements\PlayerElseIf.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Interfaces\IDamagable.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Interfaces\InterEnemy.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Interfaces\InterPlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Interfaces\IShootable.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Interfaces\Generics\IManipulateable.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Interfaces\Interface Syntax\IDamagable.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Interfaces\Interface Syntax\InterEnemy.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Interfaces\Interface Syntax\InterPlayer.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Interfaces\Interface Syntax\IShootable.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Lists\BuildObjectListChallenge.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Lists\ItemDBSystem\lItem.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Lists\ItemDBSystem\lItemDatabase.cs" />
