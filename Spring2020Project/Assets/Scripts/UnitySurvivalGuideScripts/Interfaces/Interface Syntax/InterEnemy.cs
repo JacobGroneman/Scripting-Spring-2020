@@ -18,7 +18,7 @@ public class InterEnemy : MonoBehaviour, IDamagable, IShootable
     
     public void Damage(int damageAmount)
     {
-       
+       GetComponent<MeshRenderer>().material.color = Color.red;
     }
 
     public void Shoot()
