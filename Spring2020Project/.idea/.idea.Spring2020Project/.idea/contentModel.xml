@@ -93,6 +93,9 @@
               </e>
               <e p="StructDataExample.cs" t="Include" />
             </e>
+            <e p="Delegates and Events" t="Include">
+              <e p="DelegateSyntax.cs" t="Include" />
+            </e>
             <e p="Dictionary" t="Include">
               <e p="DictionaryLoop.cs" t="Include" />
               <e p="DictionarySyntax" t="Include">
