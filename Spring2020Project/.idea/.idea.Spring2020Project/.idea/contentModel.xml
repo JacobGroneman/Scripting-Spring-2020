@@ -98,6 +98,7 @@
               <e p="EventsSyntax" t="Include">
                 <e p="EGameObject.cs" t="Include" />
                 <e p="EMain.cs" t="Include" />
+                <e p="ESphere.cs" t="Include" />
               </e>
             </e>
             <e p="Dictionary" t="Include">
