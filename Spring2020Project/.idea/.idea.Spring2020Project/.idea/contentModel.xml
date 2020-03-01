@@ -95,6 +95,10 @@
             </e>
             <e p="Delegates and Events" t="Include">
               <e p="DelegateSyntax.cs" t="Include" />
+              <e p="EventsSyntax" t="Include">
+                <e p="EGameObject.cs" t="Include" />
+                <e p="EMain.cs" t="Include" />
+              </e>
             </e>
             <e p="Dictionary" t="Include">
               <e p="DictionaryLoop.cs" t="Include" />

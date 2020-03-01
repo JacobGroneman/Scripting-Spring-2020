@@ -117,6 +117,8 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\SpellClass\Wizard.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\StructDataExample.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\DelegateSyntax.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\EventsSyntax\EGameObject.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\EventsSyntax\EMain.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Dictionary\DictionaryLoop.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Dictionary\DictionarySyntax\DictionarySyntax.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Dictionary\DictionarySyntax\DictItem.cs" />
