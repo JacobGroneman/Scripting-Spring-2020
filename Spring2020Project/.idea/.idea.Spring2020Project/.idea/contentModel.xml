@@ -94,6 +94,10 @@
               <e p="StructDataExample.cs" t="Include" />
             </e>
             <e p="Delegates and Events" t="Include">
+              <e p="Actions Syntax" t="Include">
+                <e p="ActionPlayer.cs" t="Include" />
+                <e p="ActionUIManager.cs" t="Include" />
+              </e>
               <e p="DelegateSyntax.cs" t="Include" />
               <e p="Event Challenge" t="Include">
                 <e p="EChCube.cs" t="Include" />

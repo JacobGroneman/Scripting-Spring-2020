@@ -116,6 +116,8 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\SpellClass\Spell.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\SpellClass\Wizard.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Classes\StructDataExample.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\Actions Syntax\ActionPlayer.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\Actions Syntax\ActionUIManager.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\DelegateSyntax.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\Event Challenge\EChCube.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\Event Challenge\EChMain.cs" />
