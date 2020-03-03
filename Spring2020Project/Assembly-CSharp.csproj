@@ -126,6 +126,8 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\EventsSyntax\ESphere.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\Practicing Events\EventCamera.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\Practicing Events\EventGameObject.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\Return Type Delegates and Func\FuncSyntax.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\Return Type Delegates and Func\ReturnDelegateSyntax.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Dictionary\DictionaryLoop.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Dictionary\DictionarySyntax\DictionarySyntax.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Dictionary\DictionarySyntax\DictItem.cs" />
