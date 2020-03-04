@@ -124,6 +124,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\EventsSyntax\EGameObject.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\EventsSyntax\EMain.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\EventsSyntax\ESphere.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\Lambda Operator.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\Practicing Events\EventCamera.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\Practicing Events\EventGameObject.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Delegates and Events\Return Type Delegates and Func\FuncSyntax.cs" />
