@@ -118,6 +118,7 @@
                 <e p="FuncSyntax.cs" t="Include" />
                 <e p="ReturnDelegateSyntax.cs" t="Include" />
               </e>
+              <e p="VoidLambdaAction.cs" t="Include" />
             </e>
             <e p="Dictionary" t="Include">
               <e p="DictionaryLoop.cs" t="Include" />
