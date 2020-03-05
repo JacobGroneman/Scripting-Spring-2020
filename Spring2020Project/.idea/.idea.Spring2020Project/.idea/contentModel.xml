@@ -110,6 +110,7 @@
               </e>
               <e p="Lambda Operator.cs" t="Include" />
               <e p="MyOwnLambda.cs" t="Include" />
+              <e p="NoParametersLambda.cs" t="Include" />
               <e p="Practicing Events" t="Include">
                 <e p="EventCamera.cs" t="Include" />
                 <e p="EventGameObject.cs" t="Include" />
