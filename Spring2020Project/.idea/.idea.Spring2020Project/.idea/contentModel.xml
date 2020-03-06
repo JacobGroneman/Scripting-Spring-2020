@@ -179,6 +179,9 @@
                 <e p="PMain.cs" t="Include" />
               </e>
             </e>
+            <e p="LINQ" t="Include">
+              <e p="LINQany.cs" t="Include" />
+            </e>
             <e p="Lists" t="Include">
               <e p="BuildObjectListChallenge.cs" t="Include" />
               <e p="ItemDBSystem" t="Include">
