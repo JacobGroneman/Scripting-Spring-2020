@@ -121,6 +121,7 @@
               </e>
               <e p="ReturnParameterDelegate.cs" t="Include" />
               <e p="ReturnVoidDelegate.cs" t="Include" />
+              <e p="SimpleCallbackSystem.cs" t="Include" />
               <e p="VoidLambdaAction.cs" t="Include" />
             </e>
             <e p="Dictionary" t="Include">
