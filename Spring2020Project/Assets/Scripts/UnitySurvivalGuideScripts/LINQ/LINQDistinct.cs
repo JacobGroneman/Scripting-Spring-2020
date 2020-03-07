@@ -15,6 +15,6 @@ public class LINQDistinct : MonoBehaviour
     private void Start()
     {
         var uniqueNames = names.Distinct();
-        Debug.Log("Names: " + names);
+        Debug.Log("Names: " + uniqueNames);
     }
 }
