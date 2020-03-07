@@ -181,6 +181,7 @@
             </e>
             <e p="LINQ" t="Include">
               <e p="LINQany.cs" t="Include" />
+              <e p="LINQContains.cs" t="Include" />
             </e>
             <e p="Lists" t="Include">
               <e p="BuildObjectListChallenge.cs" t="Include" />
