@@ -171,6 +171,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Interfaces\Interface Syntax\IShootable.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Interfaces\PolyMorphism\PMain.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\LINQ\LINQany.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\LINQ\LINQChallenge.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\LINQ\LINQContains.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\LINQ\LINQDistinct.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\LINQ\LINQWhere.cs" />
