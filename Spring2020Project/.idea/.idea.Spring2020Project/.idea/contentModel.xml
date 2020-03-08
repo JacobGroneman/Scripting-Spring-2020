@@ -203,6 +203,7 @@
               <e p="ForLoop.cs" t="Include" />
               <e p="ForLoopBreak.cs" t="Include" />
               <e p="iEnumeratorForLoop.cs" t="Include" />
+              <e p="LINQQuerySyntax.cs" t="Include" />
               <e p="LoopBreakChallenge.cs" t="Include" />
               <e p="SpeedChallenge2.cs" t="Include" />
               <e p="SpeedDoWhile.cs" t="Include" />
