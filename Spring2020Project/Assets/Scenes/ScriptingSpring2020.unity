@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 290946026}
   - component: {fileID: 290946025}
   - component: {fileID: 290946024}
+  - component: {fileID: 290946027}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -194,6 +195,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 16.201, y: -31.719002, z: 0}
+--- !u!114 &290946027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 290946023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 777735f9f36f82048bcdb52fec2a2765, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - name: Bread
+    id: 1
+    buff: 15
+  - name: Sword
+    id: 2
+    buff: 56
+  - name: Magic Wand
+    id: 3
+    buff: 73
+  - name: Bacon
+    id: 4
+    buff: 19
+  - name: Bulldozer
+    id: 5
+    buff: 8
 --- !u!1 &1207412946
 GameObject:
   m_ObjectHideFlags: 0
