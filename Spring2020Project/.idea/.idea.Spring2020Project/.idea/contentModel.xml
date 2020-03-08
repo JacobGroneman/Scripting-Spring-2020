@@ -184,6 +184,7 @@
               <e p="LINQChallenge.cs" t="Include" />
               <e p="LINQContains.cs" t="Include" />
               <e p="LINQDistinct.cs" t="Include" />
+              <e p="LINQOrderByDescending.cs" t="Include" />
               <e p="LINQWhere.cs" t="Include" />
             </e>
             <e p="Lists" t="Include">
