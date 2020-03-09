@@ -8,5 +8,6 @@ public class SingletonPlayer : MonoBehaviour
    private void Start()
    {
       SingletonGameManager.Instance.DisplayName();
+      SingletonUIManager.Instance.UpdateScore(40);
    }
 }

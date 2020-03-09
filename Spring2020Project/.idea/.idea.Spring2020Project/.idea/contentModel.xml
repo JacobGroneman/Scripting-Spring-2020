@@ -230,6 +230,7 @@
                 <e p="SingletonGameManager.cs" t="Include" />
                 <e p="SingletonPlayer.cs" t="Include" />
               </e>
+              <e p="SingletonUIManager.cs" t="Include" />
             </e>
             <e p="Static Types" t="Include">
               <e p="StaticConstructor.cs" t="Include" />
