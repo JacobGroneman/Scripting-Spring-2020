@@ -226,10 +226,14 @@
               <e p="SpawnCubeEular.cs" t="Include" />
             </e>
             <e p="Singletons" t="Include">
-              <e p="SingletonSpawnManager.cs" t="Include" />
+              <e p="Lazy Instantiation" t="Include">
+                <e p="LazyInstantiation.cs" t="Include" />
+                <e p="LazyPlayer.cs" t="Include" />
+              </e>
               <e p="SingletonSyntax" t="Include">
                 <e p="SingletonGameManager.cs" t="Include" />
                 <e p="SingletonPlayer.cs" t="Include" />
+                <e p="SingletonSpawnManager.cs" t="Include" />
                 <e p="SingletonUIManager.cs" t="Include" />
               </e>
             </e>
