@@ -10,5 +10,6 @@ public class SingletonPlayer : MonoBehaviour
       SingletonGameManager.Instance.DisplayName();
       SingletonUIManager.Instance.UpdateScore(40);
       SingletonSpawnManager.Instance.StartSpawn();
+      MonoLevelManager.Instance.LoadLevel();
    }
 }

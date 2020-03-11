@@ -230,6 +230,8 @@
                 <e p="LazyInstantiation.cs" t="Include" />
                 <e p="LazyPlayer.cs" t="Include" />
               </e>
+              <e p="MonoLevelManager.cs" t="Include" />
+              <e p="MonoSingleton.cs" t="Include" />
               <e p="SingletonSyntax" t="Include">
                 <e p="SingletonGameManager.cs" t="Include" />
                 <e p="SingletonPlayer.cs" t="Include" />

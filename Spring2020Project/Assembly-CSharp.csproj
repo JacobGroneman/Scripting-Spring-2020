@@ -204,6 +204,8 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Rotations\SpawnCubeEular.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Singletons\Lazy Instantiation\LazyInstantiation.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Singletons\Lazy Instantiation\LazyPlayer.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Singletons\MonoLevelManager.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Singletons\MonoSingleton.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Singletons\SingletonSyntax\SingletonGameManager.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Singletons\SingletonSyntax\SingletonPlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\Singletons\SingletonSyntax\SingletonSpawnManager.cs" />
