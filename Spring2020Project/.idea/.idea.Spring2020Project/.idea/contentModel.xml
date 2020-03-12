@@ -214,6 +214,11 @@
             <e p="NameSpaces" t="Include">
               <e p="NameSpaceExample.cs" t="Include" />
             </e>
+            <e p="Object Pooling" t="Include">
+              <e p="PoolBullet.cs" t="Include" />
+              <e p="PoolPlayer.cs" t="Include" />
+              <e p="PoolPoolManager.cs" t="Include" />
+            </e>
             <e p="Properties" t="Include">
               <e p="AutoProperty.cs" t="Include" />
               <e p="ChallengeDeclareProperties.cs" t="Include" />
