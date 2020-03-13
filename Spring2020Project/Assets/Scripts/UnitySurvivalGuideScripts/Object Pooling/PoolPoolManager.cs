@@ -6,7 +6,7 @@ using UnityEngine;
 public class PoolPoolManager : MonoSingleton<PoolPoolManager>
 {
     [SerializeField]
-    private GameObject _bullets;
+    private Transform _bullets;
     [SerializeField]
     private GameObject _bulletprefab;
     [SerializeField]
@@ -27,6 +27,22 @@ public class PoolPoolManager : MonoSingleton<PoolPoolManager>
         }
         return _bulletPool;
     }
-    
+
+    public GameObject RequestBullet()
+    {
+        foreach (var bullet in _bulletPool)
+        {
+            if (bullet.activeInHierarchy == false)
+            {
+                bullet.SetActive(true);
+                return bullet;
+            }
+        }
+
+        GameObject newBullet = Instantiate(_bulletprefab, _bullets, true);
+        newBullet.SetActive(true);
+        _bulletPool.Add(newBullet);
+        return newBullet;
+    }
 
 }

@@ -11,7 +11,8 @@ public class PoolPlayer : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(bulletPrefab);
+            GameObject bullet = PoolPoolManager.Instance.RequestBullet();
+            bullet.transform.position = Vector3.zero;
         }
     }
 }
