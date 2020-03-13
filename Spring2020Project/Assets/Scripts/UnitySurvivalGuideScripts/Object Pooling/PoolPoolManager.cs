@@ -8,7 +8,7 @@ public class PoolPoolManager : MonoSingleton<PoolPoolManager>
     [SerializeField]
     private GameObject _bullets;
     [SerializeField]
-    private GameObject _bullet;
+    private GameObject _bulletprefab;
     [SerializeField]
     private List<GameObject> _bulletPool;
 
@@ -21,10 +21,9 @@ public class PoolPoolManager : MonoSingleton<PoolPoolManager>
     {
         for (int i = 0; i < limit; i++)
         {
-            GameObject bullet = Instantiate(_bullet);
-            _bullet.transform.parent = _bullets.transform;
-            _bullet.SetActive(false);
-            _bulletPool.Add(_bullet);
+            GameObject bullet = Instantiate(_bulletprefab, _bullets.transform, true);
+            bullet.SetActive(false);
+            _bulletPool.Add(bullet);
         }
         return _bulletPool;
     }
