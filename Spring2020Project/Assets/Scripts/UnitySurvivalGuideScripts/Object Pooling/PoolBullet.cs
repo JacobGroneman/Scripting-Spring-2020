@@ -5,8 +5,13 @@ using UnityEngine;
 
 public class PoolBullet : MonoBehaviour
 {
-   private void Start()
-   {
-      Destroy(gameObject, 1f);
-   }
+    private void OnEnable()
+      {
+         Invoke(nameof(SetInactive), 1);
+      }
+
+      private void SetInactive()
+      {
+         this.gameObject.SetActive(false);
+      }
 }

@@ -5,8 +5,13 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour
 {
-    private void Start()
+    private void OnEnable()
     {
-        Destroy(gameObject, 1f);
+        Invoke(nameof(SetInactive), 1);
+    }
+
+    private void SetInactive()
+    {
+        this.gameObject.SetActive(false);
     }
 }
