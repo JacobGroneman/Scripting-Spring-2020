@@ -39,7 +39,7 @@ public class PoolPoolManager : MonoSingleton<PoolPoolManager>
             }
         }
 
-        GameObject newBullet = Instantiate(_bulletprefab, _bullets, true);
+        GameObject newBullet = Instantiate(_bulletprefab, _bullets.transform, true);
         newBullet.SetActive(true);
         _bulletPool.Add(newBullet);
         return newBullet;

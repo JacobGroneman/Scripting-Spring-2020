@@ -218,6 +218,11 @@
               <e p="PoolBullet.cs" t="Include" />
               <e p="PoolPlayer.cs" t="Include" />
               <e p="PoolPoolManager.cs" t="Include" />
+              <e p="Practice" t="Include">
+                <e p="Bomb.cs" t="Include" />
+                <e p="PoolManager2.cs" t="Include" />
+                <e p="poolPlayer2.cs" t="Include" />
+              </e>
             </e>
             <e p="Properties" t="Include">
               <e p="AutoProperty.cs" t="Include" />
