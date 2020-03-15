@@ -36,25 +36,7 @@
             <e p="UFOController.cs" t="Include" />
           </e>
           <e p="UnitySurvivalGuideScripts" t="Include">
-            <e p="Abstract Classes" t="Include">
-              <e p="AbstractChallenge" t="Include">
-                <e p="AbEmployee.cs" t="Include" />
-                <e p="AbFullTime.cs" t="Include" />
-                <e p="AbPartTime.cs" t="Include" />
-              </e>
-              <e p="AbstractEnemy.cs" t="Include" />
-            </e>
-            <e p="Arrays" t="Include">
-              <e p="ArrayForEach.cs" t="Include" />
-              <e p="ArrayForEachMyOwn.cs" t="Include" />
-              <e p="ArrayLogic.cs" t="Include" />
-              <e p="ArrayRandomTest.cs" t="Include" />
-              <e p="ArraySyntax.cs" t="Include" />
-              <e p="ArrayTest.cs" t="Include" />
-              <e p="GameObjectArray.cs" t="Include" />
-              <e p="ItemPresentationFixed.cs" t="Include" />
-            </e>
-            <e p="Basics" t="Include">
+            <e p="1. Basics" t="Include">
               <e p="collectable.cs" t="Include" />
               <e p="Crate.cs" t="Include" />
               <e p="Main.cs" t="Include" />
@@ -62,38 +44,81 @@
               <e p="PlayerMovement.cs" t="Include" />
               <e p="Position.cs" t="Include" />
             </e>
-            <e p="Classes" t="Include">
-              <e p="AnimalOverrides.cs" t="Include" />
-              <e p="BankInheritance" t="Include">
-                <e p="Bank.cs" t="Include" />
-                <e p="BankBehavior.cs" t="Include" />
-                <e p="FederalCreditUnion.cs" t="Include" />
-                <e p="FederalCreditUnionBehavior.cs" t="Include" />
+            <e p="10. Static Types" t="Include">
+              <e p="StaticConstructor.cs" t="Include" />
+              <e p="StaticEnemyData" t="Include">
+                <e p="Enemy2.cs" t="Include" />
+                <e p="InstanceVsStatic.cs" t="Include" />
+                <e p="SpawnManager.cs" t="Include" />
+                <e p="UIManager.cs" t="Include" />
               </e>
-              <e p="CustomClasses.cs" t="Include" />
-              <e p="CustomerDatabaseChallenge.cs" t="Include" />
-              <e p="ItemClass" t="Include">
-                <e p="Item1.cs" t="Include" />
-                <e p="ItemDatabase.cs" t="Include" />
+              <e p="StaticExample.cs" t="Include" />
+              <e p="UtilityHelperClass" t="Include">
+                <e p="StaticColorChallenge.cs" t="Include" />
+                <e p="UPlayer.cs" t="Include" />
+                <e p="Utility.cs" t="Include" />
               </e>
-              <e p="LivingThingsInheritance" t="Include">
-                <e p="Animals.cs" t="Include" />
-                <e p="LivingThings.cs" t="Include" />
-                <e p="LivingThingsDatabase.cs" t="Include" />
-                <e p="Plants.cs" t="Include" />
-              </e>
-              <e p="PokemonLevelPractice" t="Include">
-                <e p="Move.cs" t="Include" />
-                <e p="Pokemon.cs" t="Include" />
-                <e p="Trainer.cs" t="Include" />
-              </e>
-              <e p="SpellClass" t="Include">
-                <e p="Spell.cs" t="Include" />
-                <e p="Wizard.cs" t="Include" />
-              </e>
-              <e p="StructDataExample.cs" t="Include" />
             </e>
-            <e p="Delegates and Events" t="Include">
+            <e p="11. Properties" t="Include">
+              <e p="AutoProperty.cs" t="Include" />
+              <e p="ChallengeDeclareProperties.cs" t="Include" />
+              <e p="GetSetProperty.cs" t="Include" />
+            </e>
+            <e p="12. Namespaces" t="Include">
+              <e p="NameSpaceExample.cs" t="Include" />
+            </e>
+            <e p="13. Lists" t="Include">
+              <e p="BuildObjectListChallenge.cs" t="Include" />
+              <e p="ItemDBSystem" t="Include">
+                <e p="lItem.cs" t="Include" />
+                <e p="lItemDatabase.cs" t="Include" />
+                <e p="lPlayer.cs" t="Include" />
+              </e>
+              <e p="ListSyntax.cs" t="Include" />
+              <e p="YouHaveBeenNamedChallenge.cs" t="Include" />
+            </e>
+            <e p="14. Enums" t="Include">
+              <e p="EnemyAI.cs" t="Include" />
+              <e p="EnumCustomClass" t="Include">
+                <e p="EnumItem.cs" t="Include" />
+                <e p="EnumItemDB.cs" t="Include" />
+                <e p="LevelSelector.cs" t="Include" />
+              </e>
+              <e p="EnumSyntax.cs" t="Include" />
+              <e p="MyOwnEnumCycle.cs" t="Include" />
+            </e>
+            <e p="15. Dictionary" t="Include">
+              <e p="DictionaryLoop.cs" t="Include" />
+              <e p="DictionarySyntax" t="Include">
+                <e p="DictionarySyntax.cs" t="Include" />
+                <e p="DictItem.cs" t="Include" />
+              </e>
+              <e p="DictPlayerConnections.cs" t="Include" />
+              <e p="PrimitiveTypesDictionary.cs" t="Include" />
+            </e>
+            <e p="16. Abstract Classes" t="Include">
+              <e p="AbstractChallenge" t="Include">
+                <e p="AbEmployee.cs" t="Include" />
+                <e p="AbFullTime.cs" t="Include" />
+                <e p="AbPartTime.cs" t="Include" />
+              </e>
+              <e p="AbstractEnemy.cs" t="Include" />
+              <e p="Interfaces" t="Include">
+                <e p="Generics" t="Include">
+                  <e p="IManipulateable.cs" t="Include" />
+                </e>
+                <e p="Interface Syntax" t="Include">
+                  <e p="IDamagable.cs" t="Include" />
+                  <e p="InterEnemy.cs" t="Include" />
+                  <e p="InterPlayer.cs" t="Include" />
+                  <e p="IShootable.cs" t="Include" />
+                </e>
+                <e p="PolyMorphism" t="Include">
+                  <e p="PMain.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="17. Delegates and Events" t="Include">
               <e p="Actions Syntax" t="Include">
                 <e p="ActionPlayer.cs" t="Include" />
                 <e p="ActionUIManager.cs" t="Include" />
@@ -124,62 +149,7 @@
               <e p="SimpleCallbackSystem.cs" t="Include" />
               <e p="VoidLambdaAction.cs" t="Include" />
             </e>
-            <e p="Dictionary" t="Include">
-              <e p="DictionaryLoop.cs" t="Include" />
-              <e p="DictionarySyntax" t="Include">
-                <e p="DictionarySyntax.cs" t="Include" />
-                <e p="DictItem.cs" t="Include" />
-              </e>
-              <e p="DictPlayerConnections.cs" t="Include" />
-              <e p="PrimitiveTypesDictionary.cs" t="Include" />
-            </e>
-            <e p="Enums" t="Include">
-              <e p="EnemyAI.cs" t="Include" />
-              <e p="EnumCustomClass" t="Include">
-                <e p="EnumItem.cs" t="Include" />
-                <e p="EnumItemDB.cs" t="Include" />
-                <e p="LevelSelector.cs" t="Include" />
-              </e>
-              <e p="EnumSyntax.cs" t="Include" />
-              <e p="MyOwnEnumCycle.cs" t="Include" />
-            </e>
-            <e p="Functions and Methods" t="Include">
-              <e p="BlackColorChanger.cs" t="Include" />
-              <e p="ColorMethodPractice.cs" t="Include" />
-              <e p="MethodParameters.cs" t="Include" />
-              <e p="MethodPlayer.cs" t="Include" />
-              <e p="MethodSyntax.cs" t="Include" />
-              <e p="MyOwnColorChanger.cs" t="Include" />
-              <e p="PlayerColorReturn.cs" t="Include" />
-              <e p="PositionArrayMethod.cs" t="Include" />
-              <e p="PutThemToZero.cs" t="Include" />
-              <e p="ReturnFunction.cs" t="Include" />
-              <e p="TransformPositions.cs" t="Include" />
-            </e>
-            <e p="If Statements" t="Include">
-              <e p="IfPlayer.cs" t="Include" />
-              <e p="IfPointPlayer.cs" t="Include" />
-              <e p="IfPointPlayerBoss.cs" t="Include" />
-              <e p="IfQuizCalculator.cs" t="Include" />
-              <e p="IfScorePlayer.cs" t="Include" />
-              <e p="IfSpeed.cs" t="Include" />
-              <e p="PlayerElseIf.cs" t="Include" />
-            </e>
-            <e p="Interfaces" t="Include">
-              <e p="Generics" t="Include">
-                <e p="IManipulateable.cs" t="Include" />
-              </e>
-              <e p="Interface Syntax" t="Include">
-                <e p="IDamagable.cs" t="Include" />
-                <e p="InterEnemy.cs" t="Include" />
-                <e p="InterPlayer.cs" t="Include" />
-                <e p="IShootable.cs" t="Include" />
-              </e>
-              <e p="PolyMorphism" t="Include">
-                <e p="PMain.cs" t="Include" />
-              </e>
-            </e>
-            <e p="LINQ" t="Include">
+            <e p="18. LINQ" t="Include">
               <e p="LINQany.cs" t="Include" />
               <e p="LINQChallenge.cs" t="Include" />
               <e p="LINQContains.cs" t="Include" />
@@ -188,54 +158,7 @@
               <e p="LINQOrderByDescending.cs" t="Include" />
               <e p="LINQWhere.cs" t="Include" />
             </e>
-            <e p="Lists" t="Include">
-              <e p="BuildObjectListChallenge.cs" t="Include" />
-              <e p="ItemDBSystem" t="Include">
-                <e p="lItem.cs" t="Include" />
-                <e p="lItemDatabase.cs" t="Include" />
-                <e p="lPlayer.cs" t="Include" />
-              </e>
-              <e p="ListSyntax.cs" t="Include" />
-              <e p="YouHaveBeenNamedChallenge.cs" t="Include" />
-            </e>
-            <e p="Loops" t="Include">
-              <e p="DoWhileLoop.cs" t="Include" />
-              <e p="ForLoop.cs" t="Include" />
-              <e p="ForLoopBreak.cs" t="Include" />
-              <e p="iEnumeratorForLoop.cs" t="Include" />
-              <e p="LINQQuerySyntax.cs" t="Include" />
-              <e p="LoopBreakChallenge.cs" t="Include" />
-              <e p="SpeedChallenge2.cs" t="Include" />
-              <e p="SpeedDoWhile.cs" t="Include" />
-              <e p="SpeedLoopChallenge.cs" t="Include" />
-              <e p="VariousForLoops.cs" t="Include" />
-              <e p="WhileLoops.cs" t="Include" />
-            </e>
-            <e p="NameSpaces" t="Include">
-              <e p="NameSpaceExample.cs" t="Include" />
-            </e>
-            <e p="Object Pooling" t="Include">
-              <e p="PoolBullet.cs" t="Include" />
-              <e p="PoolPlayer.cs" t="Include" />
-              <e p="PoolPoolManager.cs" t="Include" />
-              <e p="Practice" t="Include">
-                <e p="Bomb.cs" t="Include" />
-                <e p="PoolManager2.cs" t="Include" />
-                <e p="poolPlayer2.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Properties" t="Include">
-              <e p="AutoProperty.cs" t="Include" />
-              <e p="ChallengeDeclareProperties.cs" t="Include" />
-              <e p="GetSetProperty.cs" t="Include" />
-            </e>
-            <e p="Rotations" t="Include">
-              <e p="Aim.cs" t="Include" />
-              <e p="AimSlerp.cs" t="Include" />
-              <e p="SpawnCube.cs" t="Include" />
-              <e p="SpawnCubeEular.cs" t="Include" />
-            </e>
-            <e p="Singletons" t="Include">
+            <e p="19. Singletons" t="Include">
               <e p="Lazy Instantiation" t="Include">
                 <e p="LazyInstantiation.cs" t="Include" />
                 <e p="LazyPlayer.cs" t="Include" />
@@ -249,36 +172,120 @@
                 <e p="SingletonUIManager.cs" t="Include" />
               </e>
             </e>
-            <e p="Static Types" t="Include">
-              <e p="StaticConstructor.cs" t="Include" />
-              <e p="StaticEnemyData" t="Include">
-                <e p="Enemy2.cs" t="Include" />
-                <e p="InstanceVsStatic.cs" t="Include" />
-                <e p="SpawnManager.cs" t="Include" />
-                <e p="UIManager.cs" t="Include" />
-              </e>
-              <e p="StaticExample.cs" t="Include" />
-              <e p="UtilityHelperClass" t="Include">
-                <e p="StaticColorChallenge.cs" t="Include" />
-                <e p="UPlayer.cs" t="Include" />
-                <e p="Utility.cs" t="Include" />
+            <e p="2. Rotations" t="Include">
+              <e p="Aim.cs" t="Include" />
+              <e p="AimSlerp.cs" t="Include" />
+              <e p="SpawnCube.cs" t="Include" />
+              <e p="SpawnCubeEular.cs" t="Include" />
+            </e>
+            <e p="20. Object Pooling" t="Include">
+              <e p="PoolBullet.cs" t="Include" />
+              <e p="PoolPlayer.cs" t="Include" />
+              <e p="PoolPoolManager.cs" t="Include" />
+              <e p="Practice" t="Include">
+                <e p="Bomb.cs" t="Include" />
+                <e p="PoolManager2.cs" t="Include" />
+                <e p="poolPlayer2.cs" t="Include" />
               </e>
             </e>
-            <e p="Switches" t="Include">
+            <e p="21. Command Pattern" t="Include">
+              <e p="ICommand Commands" t="Include">
+                <e p="ClickCmd.cs" t="Include" />
+              </e>
+              <e p="ICommand.cs" t="Include" />
+            </e>
+            <e p="3. Variables" t="Include">
+              <e p="Item.cs" t="Include" />
+              <e p="Player.cs" t="Include" />
+              <e p="QuizCalculator.cs" t="Include" />
+              <e p="TipCalculator.cs" t="Include" />
+            </e>
+            <e p="4. If Statements" t="Include">
+              <e p="IfPlayer.cs" t="Include" />
+              <e p="IfPointPlayer.cs" t="Include" />
+              <e p="IfPointPlayerBoss.cs" t="Include" />
+              <e p="IfQuizCalculator.cs" t="Include" />
+              <e p="IfScorePlayer.cs" t="Include" />
+              <e p="IfSpeed.cs" t="Include" />
+              <e p="PlayerElseIf.cs" t="Include" />
+            </e>
+            <e p="5. Switch Statements" t="Include">
               <e p="ColorSwitch.cs" t="Include" />
               <e p="DifficultySwitch.cs" t="Include" />
               <e p="PointsSwitch.cs" t="Include" />
               <e p="WeaponSwitch.cs" t="Include" />
               <e p="WeaponSwitch2.cs" t="Include" />
             </e>
-            <e p="Variables" t="Include">
-              <e p="Item.cs" t="Include" />
-              <e p="Player.cs" t="Include" />
-              <e p="QuizCalculator.cs" t="Include" />
-              <e p="TipCalculator.cs" t="Include" />
+            <e p="6. Loops" t="Include">
+              <e p="DoWhileLoop.cs" t="Include" />
+              <e p="ForLoop.cs" t="Include" />
+              <e p="ForLoopBreak.cs" t="Include" />
+              <e p="iEnumeratorForLoop.cs" t="Include" />
+              <e p="LINQQuerySyntax.cs" t="Include" />
+              <e p="LoopBreakChallenge.cs" t="Include" />
+              <e p="SpeedChallenge2.cs" t="Include" />
+              <e p="SpeedDoWhile.cs" t="Include" />
+              <e p="SpeedLoopChallenge.cs" t="Include" />
+              <e p="VariousForLoops.cs" t="Include" />
+              <e p="WhileLoops.cs" t="Include" />
+            </e>
+            <e p="7. Arrays" t="Include">
+              <e p="ArrayForEach.cs" t="Include" />
+              <e p="ArrayForEachMyOwn.cs" t="Include" />
+              <e p="ArrayLogic.cs" t="Include" />
+              <e p="ArrayRandomTest.cs" t="Include" />
+              <e p="ArraySyntax.cs" t="Include" />
+              <e p="ArrayTest.cs" t="Include" />
+              <e p="GameObjectArray.cs" t="Include" />
+              <e p="ItemPresentationFixed.cs" t="Include" />
+            </e>
+            <e p="8. Functions and Methods" t="Include">
+              <e p="BlackColorChanger.cs" t="Include" />
+              <e p="ColorMethodPractice.cs" t="Include" />
+              <e p="MethodParameters.cs" t="Include" />
+              <e p="MethodPlayer.cs" t="Include" />
+              <e p="MethodSyntax.cs" t="Include" />
+              <e p="MyOwnColorChanger.cs" t="Include" />
+              <e p="PlayerColorReturn.cs" t="Include" />
+              <e p="PositionArrayMethod.cs" t="Include" />
+              <e p="PutThemToZero.cs" t="Include" />
+              <e p="ReturnFunction.cs" t="Include" />
+              <e p="TransformPositions.cs" t="Include" />
+            </e>
+            <e p="9. Classes" t="Include">
+              <e p="AnimalOverrides.cs" t="Include" />
+              <e p="BankInheritance" t="Include">
+                <e p="Bank.cs" t="Include" />
+                <e p="BankBehavior.cs" t="Include" />
+                <e p="FederalCreditUnion.cs" t="Include" />
+                <e p="FederalCreditUnionBehavior.cs" t="Include" />
+              </e>
+              <e p="CustomClasses.cs" t="Include" />
+              <e p="CustomerDatabaseChallenge.cs" t="Include" />
+              <e p="ItemClass" t="Include">
+                <e p="Item1.cs" t="Include" />
+                <e p="ItemDatabase.cs" t="Include" />
+              </e>
+              <e p="LivingThingsInheritance" t="Include">
+                <e p="Animals.cs" t="Include" />
+                <e p="LivingThings.cs" t="Include" />
+                <e p="LivingThingsDatabase.cs" t="Include" />
+                <e p="Plants.cs" t="Include" />
+              </e>
+              <e p="PokemonLevelPractice" t="Include">
+                <e p="Move.cs" t="Include" />
+                <e p="Pokemon.cs" t="Include" />
+                <e p="Trainer.cs" t="Include" />
+              </e>
+              <e p="SpellClass" t="Include">
+                <e p="Spell.cs" t="Include" />
+                <e p="Wizard.cs" t="Include" />
+              </e>
+              <e p="StructDataExample.cs" t="Include" />
             </e>
           </e>
         </e>
+        <e p="UserClick.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

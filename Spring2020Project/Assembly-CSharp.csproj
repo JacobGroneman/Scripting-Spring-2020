@@ -169,6 +169,8 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\Practice\Bomb.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\Practice\PoolManager2.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\Practice\poolPlayer2.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\ICommand Commands\ClickCmd.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\ICommand.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\3. Variables\Item.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\3. Variables\Player.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\3. Variables\QuizCalculator.cs" />
@@ -234,6 +236,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\SpellClass\Spell.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\SpellClass\Wizard.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\StructDataExample.cs" />
+    <Compile Include="Assets\UserClick.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
