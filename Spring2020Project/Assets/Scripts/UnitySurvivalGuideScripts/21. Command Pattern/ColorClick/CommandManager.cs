@@ -5,28 +5,9 @@ using System.Linq;
 using UnityEngine;
 
 
-public class CommandManager : MonoBehaviour
+public class CommandManager : MonoSingleton<CommandManager>
 {
-   private static CommandManager _instance;
-
-   public static CommandManager Instance
-   {
-      get
-      {
-         if (_instance == null)
-         {
-            Debug.LogError("The Command Manager is NULL");
-         }
-         return _instance;
-      }
-   }
-   
    private static List<ICommand> _commandBuffer = new List<ICommand>();
-   private void Awake()
-   {
-      _instance = this;
-   }
-   
    
    public void AddCommandToBuffer(ICommand command)
    {
