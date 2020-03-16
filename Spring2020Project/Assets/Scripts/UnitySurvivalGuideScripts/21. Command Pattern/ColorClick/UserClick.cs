@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
-public class UserClick : MonoBehaviour
+public class UserClick : CommandManager
 { 
     void Update()
     {
@@ -17,6 +18,7 @@ public class UserClick : MonoBehaviour
                     ICommand click = new ClickCmd(hitInfo.collider.gameObject, 
                         new Color(Random.value, Random.value, Random.value));
                     click.Execute();
+                    CommandManager.Instance.AddCommandToBuffer(click);
                 }
             }
         }    

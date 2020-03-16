@@ -189,10 +189,12 @@
               </e>
             </e>
             <e p="21. Command Pattern" t="Include">
-              <e p="ICommand Commands" t="Include">
+              <e p="ColorClick" t="Include">
                 <e p="ClickCmd.cs" t="Include" />
+                <e p="CommandManager.cs" t="Include" />
+                <e p="ICommand.cs" t="Include" />
+                <e p="UserClick.cs" t="Include" />
               </e>
-              <e p="ICommand.cs" t="Include" />
             </e>
             <e p="3. Variables" t="Include">
               <e p="Item.cs" t="Include" />
@@ -285,7 +287,6 @@
             </e>
           </e>
         </e>
-        <e p="UserClick.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
