@@ -195,6 +195,18 @@
                 <e p="ICommand.cs" t="Include" />
                 <e p="UserClick.cs" t="Include" />
               </e>
+              <e p="Practical Implementation" t="Include">
+                <e p="Commands" t="Include">
+                  <e p="cpCmdDown.cs" t="Include" />
+                  <e p="cpCmdLeft.cs" t="Include" />
+                  <e p="cpCmdRight.cs" t="Include" />
+                  <e p="cpCmdUp.cs" t="Include" />
+                </e>
+                <e p="cpPlayer.cs" t="Include" />
+                <e p="Interfaces" t="Include">
+                  <e p="cpICommand.cs" t="Include" />
+                </e>
+              </e>
             </e>
             <e p="3. Variables" t="Include">
               <e p="Item.cs" t="Include" />
