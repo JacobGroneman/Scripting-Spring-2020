@@ -202,6 +202,7 @@
                   <e p="cpCmdRight.cs" t="Include" />
                   <e p="cpCmdUp.cs" t="Include" />
                 </e>
+                <e p="cpComManager.cs" t="Include" />
                 <e p="cpPlayer.cs" t="Include" />
                 <e p="Interfaces" t="Include">
                   <e p="cpICommand.cs" t="Include" />

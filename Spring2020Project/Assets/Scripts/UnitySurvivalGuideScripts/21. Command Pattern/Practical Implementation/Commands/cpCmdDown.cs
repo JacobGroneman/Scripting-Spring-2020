@@ -21,6 +21,6 @@ public class cpCmdDown : cpICommand
 
     public void Undo()
     {
-        
+        _player.Translate(Time.deltaTime * _speed * Vector3.up);
     }
 }

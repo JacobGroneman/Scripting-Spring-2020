@@ -177,6 +177,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Commands\cpCmdLeft.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Commands\cpCmdRight.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Commands\cpCmdUp.cs" />
+    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\cpComManager.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\cpPlayer.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Interfaces\cpICommand.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\3. Variables\Item.cs" />

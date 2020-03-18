@@ -20,6 +20,6 @@ public class cpCmdUp : cpICommand
 
     public void Undo()
     {
-        
+        _player.Translate(Time.deltaTime * _speed * Vector3.down);
     }
 }
