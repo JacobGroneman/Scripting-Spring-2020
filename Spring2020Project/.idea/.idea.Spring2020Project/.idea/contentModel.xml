@@ -27,6 +27,9 @@
             <e p="GameControl.cs" t="Include" />
             <e p="TraverseScreenScript.cs" t="Include" />
           </e>
+          <e p="Other Scripts" t="Include">
+            <e p="BrackeysPlayerMovement.cs" t="Include" />
+          </e>
           <e p="UFO's Tutorial" t="Include">
             <e p="ExampleScript.cs" t="Include" />
             <e p="MyController.cs" t="Include" />
