@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Start Room
   m_EditorClassIdentifier: 
   roomName: Start Room
-  description: 'The dungeon door slams behind you. Here appears is a maze of twisty
-    passages: Welcome to the Labrynth.'
+  description: 'The dungeon door slams behind you. Here appears a maze of twisty passages:
+    Welcome to the Labrynth.'
