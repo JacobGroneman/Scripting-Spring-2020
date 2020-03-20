@@ -80,6 +80,9 @@
     <Compile Include="Assets\Scripts\UFO's Tutorial\Spawner.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\SpawnPeaker.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\UFOController.cs" />
+    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\GameController.cs" />
+    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\RoomNavigation.cs" />
+    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Room.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\collectable.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\Crate.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\Main.cs" />
@@ -246,6 +249,7 @@
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\SpellClass\Spell.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\SpellClass\Wizard.cs" />
     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\StructDataExample.cs" />
+    <None Include="Assets\Text_Adventure\ProjectSettings\ProjectVersion.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

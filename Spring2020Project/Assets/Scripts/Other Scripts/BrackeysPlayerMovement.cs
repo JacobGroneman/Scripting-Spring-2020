@@ -29,7 +29,7 @@ public class BrackeysPlayerMovement : MonoBehaviour
        {
            _crouch = true;
        } 
-       else if (Input.GetButtonUp("Crouch"))
+       if (Input.GetButtonUp("Crouch"))
        {
            _crouch = false;
        }
@@ -37,7 +37,7 @@ public class BrackeysPlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        controller.Move(new Vector3(horizontalMove * Time.fixedDeltaTime, _crouch, _jump));
+        //controller.Move(new Vector3(horizontalMove * Time.fixedDeltaTime, _crouch, _jump));
         _jump = false;
     }
 }

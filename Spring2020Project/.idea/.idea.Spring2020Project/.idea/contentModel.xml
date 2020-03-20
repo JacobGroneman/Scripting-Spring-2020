@@ -38,6 +38,13 @@
             <e p="SpawnPeaker.cs" t="Include" />
             <e p="UFOController.cs" t="Include" />
           </e>
+          <e p="Unity Text Adventure Scripting" t="Include">
+            <e p="GameController.cs" t="Include" />
+            <e p="RoomNavigation.cs" t="Include" />
+            <e p="Scriptable Objects" t="Include">
+              <e p="Room.cs" t="Include" />
+            </e>
+          </e>
           <e p="UnitySurvivalGuideScripts" t="Include">
             <e p="1. Basics" t="Include">
               <e p="collectable.cs" t="Include" />
@@ -301,6 +308,11 @@
               </e>
               <e p="StructDataExample.cs" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="Text_Adventure" t="Include">
+          <e p="ProjectSettings" t="Include">
+            <e p="ProjectVersion.txt" t="Include" />
           </e>
         </e>
       </e>
