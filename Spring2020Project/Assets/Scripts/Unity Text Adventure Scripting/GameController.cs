@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,7 @@ public class GameController : MonoBehaviour
 {
     public Text displayText;
     [HideInInspector] public RoomNavigation roomNavigation;
+    [HideInInspector] public List<string> interactionDescriptionsInRoom = new List<string>();
     List<string> actionLog = new List<string>();
     
 //---------------------------------------------------------------------------------------------------------------------
@@ -30,10 +32,17 @@ public class GameController : MonoBehaviour
 
     public void DisplayRoomText()
     {
-        string combinedText = roomNavigation.currentRoom.description + "\n";
+        UnpackRoom();
+        string joinInteractionDescriptions = String.Join("\n", interactionDescriptionsInRoom.ToArray());
+        string combinedText = roomNavigation.currentRoom.description + "\n" + joinInteractionDescriptions;
         LogStringWithReturn(combinedText);
     }
 
+    void UnpackRoom()
+    {
+        roomNavigation.UnpackExitsInRoom();
+    }
+    
     public void DisplayLogText()
     {
         string logAsText = string.Join("\n", actionLog.ToArray());
