@@ -34,7 +34,7 @@ public class TextInput : MonoBehaviour
 
     void InputComplete()
     {
-        _gameController.DisplayLogText();
+        _gameController.DisplayLoggedText();
         inputField.ActivateInputField();
         inputField.text = null;
     }

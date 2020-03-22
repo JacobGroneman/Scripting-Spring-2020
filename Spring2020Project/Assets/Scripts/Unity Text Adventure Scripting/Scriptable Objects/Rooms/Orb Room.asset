@@ -15,6 +15,6 @@ MonoBehaviour:
   roomName: Orb Room
   description: You are in a vast dark hall...
   exits:
-  - keyWord: South
+  - keyWord: south
     exitDescription: There is a door to the South with light coming through.
     valueRoom: {fileID: 11400000, guid: 4fcda82faf6ea714c8d5432db494bcfe, type: 2}

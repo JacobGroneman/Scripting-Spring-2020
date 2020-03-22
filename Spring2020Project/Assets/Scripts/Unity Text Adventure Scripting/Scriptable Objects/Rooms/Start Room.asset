@@ -16,6 +16,6 @@ MonoBehaviour:
   description: 'The dungeon door slams behind you. Here appears a maze of twisty passages:
     Welcome to the Labrynth.'
   exits:
-  - keyWord: North
+  - keyWord: north
     exitDescription: You see a dark doorway to the North.
     valueRoom: {fileID: 11400000, guid: e751c3ddd73ea454b8a65ee3a9157fbf, type: 2}
