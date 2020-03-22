@@ -43,7 +43,13 @@
             <e p="GameController.cs" t="Include" />
             <e p="RoomNavigation.cs" t="Include" />
             <e p="Scriptable Objects" t="Include">
-              <e p="Room.cs" t="Include" />
+              <e p="InputAction" t="Include">
+                <e p="Go.cs" t="Include" />
+                <e p="InputAction.cs" t="Include" />
+              </e>
+              <e p="Rooms" t="Include">
+                <e p="Room.cs" t="Include" />
+              </e>
               <e p="TextInput.cs" t="Include" />
             </e>
           </e>
