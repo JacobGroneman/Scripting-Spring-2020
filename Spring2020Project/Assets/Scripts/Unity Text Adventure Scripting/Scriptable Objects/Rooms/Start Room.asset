@@ -19,3 +19,5 @@ MonoBehaviour:
   - keyWord: north
     exitDescription: You see a dark doorway to the North.
     valueRoom: {fileID: 11400000, guid: e751c3ddd73ea454b8a65ee3a9157fbf, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: ff06ae9c6c1adb447a2be0a23452eac3, type: 2}
