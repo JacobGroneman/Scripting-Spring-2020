@@ -48,7 +48,10 @@
                 <e p="Go.cs" t="Include" />
                 <e p="InputAction.cs" t="Include" />
               </e>
-              <e p="InteractableObject.cs" t="Include" />
+              <e p="Items" t="Include">
+                <e p="InteractableObject.cs" t="Include" />
+                <e p="Interaction.cs" t="Include" />
+              </e>
               <e p="Rooms" t="Include">
                 <e p="Room.cs" t="Include" />
               </e>

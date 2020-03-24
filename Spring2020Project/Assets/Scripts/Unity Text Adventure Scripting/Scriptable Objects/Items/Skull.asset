@@ -14,3 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noun: Skull
   description: An old human skull lies in the corner.
+  interactions:
+  - inputAction: {fileID: 0}
+    textResponse: The Skull is black and charred.

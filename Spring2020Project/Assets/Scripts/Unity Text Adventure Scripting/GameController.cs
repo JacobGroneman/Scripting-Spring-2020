@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -58,9 +59,29 @@ public class GameController : MonoBehaviour
             {
                 interactionDescriptionsInRoom.Add(descriptionNotInInventory);
             }
+            
+            InteractableObject interactibleInRoom = currentRoom.interactableObjectsInRoom[i];
+            
+            for (int j = 0; j < interactibleInRoom.interactions.Length; j++)
+            {
+                Interaction interaction = interactibleInRoom.interactions[j];
+                if (interaction.inputAction.keyWord == "examine")
+                {
+                    interactableItems.examineDictionary.Add(interactibleInRoom.noun, interaction.textResponse);
+                }
+            }
         }
     }
 
+    public string TestVerbDictionaryWithNoun(Dictionary<string, string> verbDictionary, string verb, string noun)
+    {
+        if (verbDictionary.ContainsKey(noun))
+        {
+            return verbDictionary[noun];
+        }
+        
+        return "you cant " + verb + " " + noun;
+    }
     void ClearCollectionsForNewRoom()
     {
         interactionDescriptionsInRoom.Clear();
