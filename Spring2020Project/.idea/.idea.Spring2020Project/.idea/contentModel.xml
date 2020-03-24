@@ -45,6 +45,7 @@
             <e p="RoomNavigation.cs" t="Include" />
             <e p="Scriptable Objects" t="Include">
               <e p="InputAction" t="Include">
+                <e p="Examine.cs" t="Include" />
                 <e p="Go.cs" t="Include" />
                 <e p="InputAction.cs" t="Include" />
               </e>

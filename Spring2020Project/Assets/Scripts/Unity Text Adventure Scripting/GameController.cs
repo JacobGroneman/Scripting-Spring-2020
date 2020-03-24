@@ -84,8 +84,9 @@ public class GameController : MonoBehaviour
     }
     void ClearCollectionsForNewRoom()
     {
-        interactionDescriptionsInRoom.Clear();
         roomNavigation.ClearExits();
+        interactionDescriptionsInRoom.Clear();
+        interactableItems.ClearCollections();
     }
     
     public void DisplayLoggedText()

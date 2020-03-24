@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\GameController.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\InteractableItems.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\RoomNavigation.cs" />
+    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Examine.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Go.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\InputAction.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Items\InteractableObject.cs" />

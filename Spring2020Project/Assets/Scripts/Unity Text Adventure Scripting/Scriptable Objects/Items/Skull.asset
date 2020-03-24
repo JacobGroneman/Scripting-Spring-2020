@@ -15,5 +15,5 @@ MonoBehaviour:
   noun: Skull
   description: An old human skull lies in the corner.
   interactions:
-  - inputAction: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: b988313d65ef1074baad3f73f629ee5f, type: 2}
     textResponse: The Skull is black and charred.

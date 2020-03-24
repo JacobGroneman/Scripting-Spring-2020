@@ -19,4 +19,10 @@ public class InteractableItems : MonoBehaviour
         }
         return null;
     }
+    
+    public void ClearCollections()
+    {
+        examineDictionary.Clear();
+        nounsInRoom.Clear();
+    }
 }

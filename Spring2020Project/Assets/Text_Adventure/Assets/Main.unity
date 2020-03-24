@@ -730,8 +730,10 @@ MonoBehaviour:
   displayText: {fileID: 473952483}
   inputActions:
   - {fileID: 11400000, guid: 8a18802240811084e964143429b6a442, type: 2}
+  - {fileID: 11400000, guid: b988313d65ef1074baad3f73f629ee5f, type: 2}
   roomNavigation: {fileID: 0}
   interactionDescriptionsInRoom: []
+  interactableItems: {fileID: 0}
 --- !u!4 &1943574887
 Transform:
   m_ObjectHideFlags: 0
