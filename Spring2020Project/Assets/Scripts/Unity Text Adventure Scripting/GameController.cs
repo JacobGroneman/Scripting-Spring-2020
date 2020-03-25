@@ -69,6 +69,10 @@ public class GameController : MonoBehaviour
                 {
                     interactableItems.examineDictionary.Add(interactibleInRoom.noun, interaction.textResponse);
                 }
+                if (interaction.inputAction.keyWord == "take")
+                {
+                    interactableItems.takeDictionary.Add(interactibleInRoom.noun, interaction.textResponse);
+                }
             }
         }
     }
