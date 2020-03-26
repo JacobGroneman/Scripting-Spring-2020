@@ -28,6 +28,7 @@
             <e p="TraverseScreenScript.cs" t="Include" />
           </e>
           <e p="Other Scripts" t="Include">
+            <e p="AnotherReturnDelegate.cs" t="Include" />
             <e p="BrackeysPlayerMovement.cs" t="Include" />
             <e p="DelegatePractice.cs" t="Include" />
           </e>
