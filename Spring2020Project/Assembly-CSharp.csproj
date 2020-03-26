@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\Data Persistence\GameControl.cs" />
     <Compile Include="Assets\Scripts\Data Persistence\TraverseScreenScript.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\BrackeysPlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\DelegatePractice.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\ExampleScript.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\MyController.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\ParticleController.cs" />
