@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Other Scripts\AnotherReturnDelegate.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\BrackeysPlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\DelegatePractice.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\PracticeEnum.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\ExampleScript.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\MyController.cs" />
     <Compile Include="Assets\Scripts\UFO's Tutorial\ParticleController.cs" />
