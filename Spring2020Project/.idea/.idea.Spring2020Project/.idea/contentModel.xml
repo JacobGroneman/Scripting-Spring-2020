@@ -51,6 +51,7 @@
                 <e p="Examine.cs" t="Include" />
                 <e p="Go.cs" t="Include" />
                 <e p="InputAction.cs" t="Include" />
+                <e p="Inventory.cs" t="Include" />
                 <e p="Take.cs" t="Include" />
               </e>
               <e p="Items" t="Include">

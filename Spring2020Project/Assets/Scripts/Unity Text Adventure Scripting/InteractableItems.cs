@@ -27,6 +27,16 @@ public class InteractableItems : MonoBehaviour
         }
         return null;
     }
+
+    public void DisplayInventory()
+    {
+        _gameController.LogStringWithReturn("You look in your Backpack, Inside you have: ");
+        
+        foreach (var noun in nounsInInventory)
+        { 
+            _gameController.LogStringWithReturn(noun);
+        }
+    }
     
     public void ClearCollections()
     {
