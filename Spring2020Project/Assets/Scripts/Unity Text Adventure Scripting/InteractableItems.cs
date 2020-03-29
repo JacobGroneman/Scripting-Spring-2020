@@ -5,11 +5,14 @@ using UnityEngine;
 
 public class InteractableItems : MonoBehaviour
 {
+    public List<InteractableObject> usableItemList;
     [HideInInspector] public List<string> nounsInRoom = new List<string>();
-    private List<string> nounsInInventory = new List<string>();
     public Dictionary<string, string> examineDictionary = new Dictionary<string, string>();
     public Dictionary<string, string> takeDictionary = new Dictionary<string, string>();
+    
+    private List<string> nounsInInventory = new List<string>();
     private GameController _gameController;
+    private Dictionary<string, ActionResponse> useDictionary = new Dictionary<string, ActionResponse>();
 
     private void Awake()
     {
@@ -28,6 +31,44 @@ public class InteractableItems : MonoBehaviour
         return null;
     }
 
+    public void AddActionResponsesToUserDictionary()
+    {
+        foreach (var noun in nounsInInventory)
+        {
+            InteractableObject interactableObjectInInventory = GetInteractableObjectFromUsableList(noun);
+            if (interactableObjectInInventory == null)
+            {
+                continue;
+            }
+
+            foreach (var interaction in interactableObjectInInventory.interactions)
+            {
+                if (interaction.actionResponse == null)
+                {
+                    continue;
+                }
+
+                if (!useDictionary.ContainsKey(noun))
+                {
+                    useDictionary.Add(noun, interaction.actionResponse);
+                }
+            }
+        }
+    }
+
+    public InteractableObject GetInteractableObjectFromUsableList(string noun)
+    {
+        foreach (var item in usableItemList)
+        {
+            if (item.noun == noun)
+            {
+                return item;
+            }
+        }
+
+        return null;
+    }
+    
     public void DisplayInventory()
     {
         _gameController.LogStringWithReturn("You look in your Backpack, Inside you have: ");
@@ -51,6 +92,7 @@ public class InteractableItems : MonoBehaviour
         if (nounsInRoom.Contains(noun))
         {
             nounsInInventory.Add(noun);
+            AddActionResponsesToUserDictionary();
             nounsInRoom.Add(noun);
             return takeDictionary;
         }
