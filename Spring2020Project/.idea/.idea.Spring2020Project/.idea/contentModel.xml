@@ -47,6 +47,10 @@
             <e p="InteractableItems.cs" t="Include" />
             <e p="RoomNavigation.cs" t="Include" />
             <e p="Scriptable Objects" t="Include">
+              <e p="Action Response" t="Include">
+                <e p="ActionResponse.cs" t="Include" />
+                <e p="ChangeRoomResponse.cs" t="Include" />
+              </e>
               <e p="InputAction" t="Include">
                 <e p="Examine.cs" t="Include" />
                 <e p="Go.cs" t="Include" />
