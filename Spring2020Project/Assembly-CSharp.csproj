@@ -94,6 +94,7 @@
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\InputAction.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Inventory.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Take.cs" />
+    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Use.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Items\InteractableObject.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Items\Interaction.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Rooms\Room.cs" />
