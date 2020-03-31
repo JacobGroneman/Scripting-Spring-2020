@@ -49,7 +49,5 @@ public class FirstPersonPlayerMovement : MonoBehaviour
         //Implements Gravity
         _velocity.y += gravity * Time.deltaTime;
         controller.Move(_velocity * Time.deltaTime);
-        
-        //Resets Velocity By Ground Checking
     }
 }
