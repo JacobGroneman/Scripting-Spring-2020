@@ -26,6 +26,7 @@
               </e>
               <e p="BrackeysPlayerMovement.cs" t="Include" />
               <e p="First Person Movement" t="Include">
+                <e p="FirstPersonPlayerMovement.cs" t="Include" />
                 <e p="MouseLook.cs" t="Include" />
               </e>
             </e>
