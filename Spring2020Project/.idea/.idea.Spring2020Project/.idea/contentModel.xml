@@ -39,6 +39,7 @@
               <e p="AnotherReturnDelegate.cs" t="Include" />
               <e p="DelegatePractice.cs" t="Include" />
               <e p="PracticeEnum.cs" t="Include" />
+              <e p="RayCastPractice.cs" t="Include" />
             </e>
             <e p="UFO's Tutorial" t="Include">
               <e p="ExampleScript.cs" t="Include" />
