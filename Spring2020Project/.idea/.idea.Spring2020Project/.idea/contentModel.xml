@@ -38,6 +38,7 @@
             <e p="Practice" t="Include">
               <e p="AnotherReturnDelegate.cs" t="Include" />
               <e p="DelegatePractice.cs" t="Include" />
+              <e p="LoopPractice.cs" t="Include" />
               <e p="PracticeEnum.cs" t="Include" />
               <e p="RayCastPractice.cs" t="Include" />
             </e>
