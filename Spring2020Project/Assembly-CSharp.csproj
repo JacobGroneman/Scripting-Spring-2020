@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\BrackeysPlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\First Person Movement\FirstPersonPlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\First Person Movement\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\TopDownMovement\TopDownPlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\AdjustScript.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\GameControl.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\TraverseScreenScript.cs" />
