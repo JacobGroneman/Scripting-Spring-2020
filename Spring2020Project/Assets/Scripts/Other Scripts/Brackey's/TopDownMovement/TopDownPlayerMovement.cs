@@ -19,9 +19,15 @@ public class TopDownPlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", _movement.x);
         animator.SetFloat("Vertical", _movement.y);
         animator.SetFloat("Speed", _movement.sqrMagnitude);
-        
-        //(for flipping)
-        //transform.localScale
+
+        if (_movement.x == -1)
+        {
+            this.gameObject.transform.localScale = new Vector3(-1, 0, 0);
+        }
+        else
+        {
+            this.gameObject.transform.position = new Vector3(1, 1, 1);
+        }
     }
 
     private void FixedUpdate()
