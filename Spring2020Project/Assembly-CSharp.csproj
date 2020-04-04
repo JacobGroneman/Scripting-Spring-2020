@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BrackeysPoolManager.cs" />
     <Compile Include="Assets\ObjectColorParameter.cs" />
     <Compile Include="Assets\Scripts\ClassScripts\Assignments\Variables\Variables.cs" />
     <Compile Include="Assets\Scripts\ClassScripts\Assignments\Variables\VariablesHomework1.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\First Person Movement\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\CubeForce.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\CubeSpawn.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\IPooledObject.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\TopDownMovement\TopDownPlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\AdjustScript.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\GameControl.cs" />

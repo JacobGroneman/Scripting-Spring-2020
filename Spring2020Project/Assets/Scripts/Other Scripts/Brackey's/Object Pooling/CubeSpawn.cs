@@ -1,13 +1,19 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CubeSpawn : MonoBehaviour
 {
-    public GameObject cubePrefabToSpawn;
+    private BrackeysPoolManager _poolManager;
     
+    private void Start()
+    {
+        _poolManager = BrackeysPoolManager.Instance;
+    }
+
     void FixedUpdate()
     {
-        Instantiate(cubePrefabToSpawn, transform.position, Quaternion.identity);
+        BrackeysPoolManager.Instance.SpawnFromPool("Cube", transform.position, Quaternion.identity);
     }
 }
