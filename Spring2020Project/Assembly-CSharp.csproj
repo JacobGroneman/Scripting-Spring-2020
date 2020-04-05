@@ -77,6 +77,9 @@
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\CubeForce.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\CubeSpawn.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\IPooledObject.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Save &amp; Load Systems\bPlayer.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Save &amp; Load Systems\bPlayerData.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Save &amp; Load Systems\bSaveSystem.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Scriptable Objects\bCard.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Scriptable Objects\bCardDisplay.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\TopDownMovement\TopDownPlayerMovement.cs" />
