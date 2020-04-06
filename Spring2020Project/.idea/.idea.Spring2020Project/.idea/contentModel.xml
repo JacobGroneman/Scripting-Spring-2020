@@ -31,6 +31,7 @@
                 <e p="MouseLook.cs" t="Include" />
               </e>
               <e p="Health Bar" t="Include">
+                <e p="bHbBillboard.cs" t="Include" />
                 <e p="bHbHealthBar.cs" t="Include" />
                 <e p="bHbPlayer.cs" t="Include" />
               </e>

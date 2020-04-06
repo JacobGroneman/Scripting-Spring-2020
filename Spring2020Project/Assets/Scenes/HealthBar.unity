@@ -286,7 +286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 0
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 1761201810}
 --- !u!4 &355148466
 Transform:
   m_ObjectHideFlags: 0
@@ -625,7 +625,6 @@ GameObject:
   - component: {fileID: 1618466186}
   - component: {fileID: 1618466185}
   - component: {fileID: 1618466184}
-  - component: {fileID: 1618466187}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -697,21 +696,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1618466187
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1618466183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 810559fe9bc36054ab5f9aa792a0d8a0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 100
-  currentHealth: 0
-  healthBar: {fileID: 1761201810}
 --- !u!1 &1761201807
 GameObject:
   m_ObjectHideFlags: 0
@@ -814,3 +798,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 1761201809}
+  gradient:
+    serializedVersion: 2
+    key0: {r: 0.9339623, g: 0.14538093, b: 0.14538093, a: 1}
+    key1: {r: 0.9743725, g: 1, b: 0, a: 1}
+    key2: {r: 0, g: 1, b: 0.10866976, a: 0}
+    key3: {r: 0, g: 1, b: 0.10866976, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 14649
+    ctime1: 43176
+    ctime2: 47802
+    ctime3: 53199
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 1
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  fill: {fileID: 310607097}
