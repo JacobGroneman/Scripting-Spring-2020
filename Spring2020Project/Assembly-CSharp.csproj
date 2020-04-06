@@ -74,6 +74,8 @@
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\BrackeysPlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\First Person Movement\FirstPersonPlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\First Person Movement\MouseLook.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\bHbHealthBar.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\bHbPlayer.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\CubeForce.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\CubeSpawn.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\IPooledObject.cs" />
