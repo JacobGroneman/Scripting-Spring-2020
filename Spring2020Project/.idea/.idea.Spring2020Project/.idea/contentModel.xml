@@ -34,6 +34,11 @@
                 <e p="bHbBillboard.cs" t="Include" />
                 <e p="bHbHealthBar.cs" t="Include" />
                 <e p="bHbPlayer.cs" t="Include" />
+                <e p="Practice" t="Include">
+                  <e p="BillBoardp.cs" t="Include" />
+                  <e p="HealthBarp.cs" t="Include" />
+                  <e p="Playerp.cs" t="Include" />
+                </e>
               </e>
               <e p="Object Pooling" t="Include">
                 <e p="CubeForce.cs" t="Include" />

@@ -77,6 +77,9 @@
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\bHbBillboard.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\bHbHealthBar.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\bHbPlayer.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\Practice\BillBoardp.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\Practice\HealthBarp.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\Practice\Playerp.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\CubeForce.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\CubeSpawn.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\IPooledObject.cs" />
