@@ -57,6 +57,11 @@
               <e p="TopDownMovement" t="Include">
                 <e p="TopDownPlayerMovement.cs" t="Include" />
               </e>
+              <e p="Turn-Based Combat" t="Include">
+                <e p="BattleHud.cs" t="Include" />
+                <e p="BattleSystem.cs" t="Include" />
+                <e p="Unit.cs" t="Include" />
+              </e>
             </e>
             <e p="Data Persistence" t="Include">
               <e p="AdjustScript.cs" t="Include" />

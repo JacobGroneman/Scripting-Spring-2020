@@ -89,6 +89,9 @@
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Scriptable Objects\bCard.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Scriptable Objects\bCardDisplay.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\TopDownMovement\TopDownPlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Turn-Based Combat\BattleHud.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Turn-Based Combat\BattleSystem.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Turn-Based Combat\Unit.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\AdjustScript.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\GameControl.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\TraverseScreenScript.cs" />
