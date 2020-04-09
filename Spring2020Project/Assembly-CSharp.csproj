@@ -97,6 +97,8 @@
     <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\TraverseScreenScript.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\AnotherReturnDelegate.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\DelegatePractice.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Practice\LightBulb\LightBulb.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Practice\LightBulb\LightController.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\LoopPractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\PracticeEnum.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\RayCastPractice.cs" />

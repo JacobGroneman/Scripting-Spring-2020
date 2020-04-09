@@ -71,6 +71,10 @@
             <e p="Practice" t="Include">
               <e p="AnotherReturnDelegate.cs" t="Include" />
               <e p="DelegatePractice.cs" t="Include" />
+              <e p="LightBulb" t="Include">
+                <e p="LightBulb.cs" t="Include" />
+                <e p="LightController.cs" t="Include" />
+              </e>
               <e p="LoopPractice.cs" t="Include" />
               <e p="PracticeEnum.cs" t="Include" />
               <e p="RayCastPractice.cs" t="Include" />
