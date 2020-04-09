@@ -7,11 +7,11 @@ using Color = System.Drawing.Color;
 
 public class LightBulb : MonoBehaviour
 {
-    public string productName;
-    public int maxBrightness;
-    public Color color;
+    private string _productName;
+    private int _maxBrightness;
+    private Color _color;
 
-    private enum Brand
+    public enum Brand
     {
         BillsBlue,
         RubyRidge,
@@ -20,36 +20,36 @@ public class LightBulb : MonoBehaviour
         Oldes
     }
 
-    private Brand _brand;
+    public Brand _brand;
 
     private void Update()
     {
         switch (_brand)
         {
             case Brand.BillsBlue:
-                productName = "Blaze LED";
-                maxBrightness = 100;
-                color = Color.Blue;
+                _productName = "Blaze LED";
+                _maxBrightness = 100;
+                _color = Color.Blue;
                 break;
             case Brand.RubyRidge:
-                productName = "Heat Lamp Bulb";
-                maxBrightness = 50;
-                color = Color.Firebrick;
+                _productName = "Heat Lamp Bulb";
+                _maxBrightness = 50;
+                _color = Color.Firebrick;
                 break;
             case Brand.CopperWorks:
-                productName = "Robot LED";
-                maxBrightness = 34;
-                color = Color.Sienna;
+                _productName = "Robot LED";
+                _maxBrightness = 34;
+                _color = Color.Sienna;
                 break;
             case Brand.Philips:
-                productName = "Boring White LED";
-                maxBrightness = 90;
-                color = Color.Azure;
+                _productName = "Boring White LED";
+                _maxBrightness = 90;
+                _color = Color.Azure;
                 break;
             case Brand.Oldes:
-                productName = "Retro Collection";
-                maxBrightness = 67;
-                color = Color.LemonChiffon;
+                _productName = "Retro Collection";
+                _maxBrightness = 67;
+                _color = Color.LemonChiffon;
                 break;
         }
     }
