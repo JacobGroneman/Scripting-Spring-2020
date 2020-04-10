@@ -67,6 +67,10 @@
     <Compile Include="Assets\ObjectColorParameter.cs" />
     <Compile Include="Assets\Scripts\ClassScripts\Assignments\Variables\Variables.cs" />
     <Compile Include="Assets\Scripts\ClassScripts\Assignments\Variables\VariablesHomework1.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\AI\BRKYSEnemy.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\AI\BRKYSEnemyAI.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\AI\BRKYSEnemyStats.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\AI\BRKYSPlayerManager.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Brackeys bullet tutorial\Bullet.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Brackeys bullet tutorial\Enemy.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Brackeys bullet tutorial\WeaponPrefabVersion.cs" />

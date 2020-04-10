@@ -19,6 +19,12 @@
           </e>
           <e p="Other Scripts" t="Include">
             <e p="Brackey's" t="Include">
+              <e p="AI" t="Include">
+                <e p="BRKYSEnemy.cs" t="Include" />
+                <e p="BRKYSEnemyAI.cs" t="Include" />
+                <e p="BRKYSEnemyStats.cs" t="Include" />
+                <e p="BRKYSPlayerManager.cs" t="Include" />
+              </e>
               <e p="Brackeys bullet tutorial" t="Include">
                 <e p="Bullet.cs" t="Include" />
                 <e p="Enemy.cs" t="Include" />
