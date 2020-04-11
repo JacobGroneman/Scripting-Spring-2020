@@ -5,7 +5,6 @@
     <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
     <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
     <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
-    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -51,926 +50,927 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\BrackeysPoolManager.cs" />
-    <Compile Include="Assets\ObjectColorParameter.cs" />
-    <Compile Include="Assets\Scripts\ClassScripts\Assignments\Variables\Variables.cs" />
-    <Compile Include="Assets\Scripts\ClassScripts\Assignments\Variables\VariablesHomework1.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\AI\BRKYSEnemy.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\AI\BRKYSEnemyAI.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\AI\BRKYSEnemyStats.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\AI\BRKYSPlayerManager.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Brackeys bullet tutorial\Bullet.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Brackeys bullet tutorial\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Brackeys bullet tutorial\WeaponPrefabVersion.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Brackeys bullet tutorial\WeaponRaycastVersion.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\BrackeysPlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\First Person Movement\FirstPersonPlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\First Person Movement\MouseLook.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\Practice\BillBoardp.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\Practice\HealthBarp.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\Practice\Playerp.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\bHbBillboard.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\bHbHealthBar.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Health Bar\bHbPlayer.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\CubeForce.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\CubeSpawn.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Object Pooling\IPooledObject.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Save &amp; Load Systems\bPlayer.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Save &amp; Load Systems\bPlayerData.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Save &amp; Load Systems\bSaveSystem.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Scriptable Objects\bCard.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Scriptable Objects\bCardDisplay.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\TopDownMovement\TopDownPlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Turn-Based Combat\BattleHud.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Turn-Based Combat\BattleSystem.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Brackey's\Turn-Based Combat\Unit.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\AdjustScript.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\GameControl.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\TraverseScreenScript.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Practice\AnotherReturnDelegate.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Practice\DelegatePractice.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Practice\LightBulb\LightBulb.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Practice\LightBulb\LightController.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Practice\LoopPractice.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Practice\PracticeEnum.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Practice\RayCastPractice.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\Practice\TopDownMovementPractice.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\ExampleScript.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\MyController.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\ParticleController.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\SpawnPeaker.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\Spawner.cs" />
-    <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\UFOController.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Exit.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\GameController.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\InteractableItems.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\RoomNavigation.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Action Response\ActionResponse.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Action Response\ChangeRoomResponse.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Examine.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Go.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\InputAction.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Inventory.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Take.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Use.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Items\InteractableObject.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Items\Interaction.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Rooms\Room.cs" />
-    <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\TextInput.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\Crate.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\Main.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\Pause.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\Position.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\collectable.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\StaticConstructor.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\StaticEnemyData\Enemy2.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\StaticEnemyData\InstanceVsStatic.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\StaticEnemyData\SpawnManager.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\StaticEnemyData\UIManager.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\StaticExample.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\UtilityHelperClass\StaticColorChallenge.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\UtilityHelperClass\UPlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\UtilityHelperClass\Utility.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\11. Properties\AutoProperty.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\11. Properties\ChallengeDeclareProperties.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\11. Properties\GetSetProperty.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\12. Namespaces\NameSpaceExample.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\13. Lists\BuildObjectListChallenge.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\13. Lists\ItemDBSystem\lItem.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\13. Lists\ItemDBSystem\lItemDatabase.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\13. Lists\ItemDBSystem\lPlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\13. Lists\ListSyntax.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\13. Lists\YouHaveBeenNamedChallenge.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\14. Enums\EnemyAI.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\14. Enums\EnumCustomClass\EnumItem.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\14. Enums\EnumCustomClass\EnumItemDB.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\14. Enums\EnumCustomClass\LevelSelector.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\14. Enums\EnumSyntax.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\14. Enums\MyOwnEnumCycle.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\15. Dictionary\DictPlayerConnections.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\15. Dictionary\DictionaryLoop.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\15. Dictionary\DictionarySyntax\DictItem.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\15. Dictionary\DictionarySyntax\DictionarySyntax.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\15. Dictionary\PrimitiveTypesDictionary.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\AbstractChallenge\AbEmployee.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\AbstractChallenge\AbFullTime.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\AbstractChallenge\AbPartTime.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\AbstractEnemy.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\Interfaces\Generics\IManipulateable.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\Interfaces\Interface Syntax\IDamagable.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\Interfaces\Interface Syntax\IShootable.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\Interfaces\Interface Syntax\InterEnemy.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\Interfaces\Interface Syntax\InterPlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\Interfaces\PolyMorphism\PMain.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Actions Syntax\ActionPlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Actions Syntax\ActionUIManager.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\DelegateSyntax.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Event Challenge\EChCube.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Event Challenge\EChMain.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\EventsSyntax\EGameObject.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\EventsSyntax\EMain.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\EventsSyntax\ESphere.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Lambda Operator.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\MyOwnLambda.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\NoParametersLambda.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Practicing Events\EventCamera.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Practicing Events\EventGameObject.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Return Type Delegates and Func\FuncSyntax.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Return Type Delegates and Func\ReturnDelegateSyntax.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\ReturnParameterDelegate.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\ReturnVoidDelegate.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\SimpleCallbackSystem.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\VoidLambdaAction.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQChallenge.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQContains.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQDistinct.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQItemFilterChallenge.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQOrderByDescending.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQWhere.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQany.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\Lazy Instantiation\LazyInstantiation.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\Lazy Instantiation\LazyPlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\MonoLevelManager.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\MonoSingleton.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\SingletonSyntax\SingletonGameManager.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\SingletonSyntax\SingletonPlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\SingletonSyntax\SingletonSpawnManager.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\SingletonSyntax\SingletonUIManager.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\2. Rotations\Aim.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\2. Rotations\AimSlerp.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\2. Rotations\SpawnCube.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\2. Rotations\SpawnCubeEular.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\PoolBullet.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\PoolPlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\PoolPoolManager.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\Practice\Bomb.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\Practice\PoolManager2.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\Practice\poolPlayer2.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\ColorClick\ClickCmd.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\ColorClick\CommandManager.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\ColorClick\ICommand.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\ColorClick\UserClick.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Commands\cpCmdDown.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Commands\cpCmdLeft.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Commands\cpCmdRight.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Commands\cpCmdUp.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Interfaces\cpICommand.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\cpComManager.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\cpPlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\3. Variables\Item.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\3. Variables\Player.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\3. Variables\QuizCalculator.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\3. Variables\TipCalculator.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\IfPlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\IfPointPlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\IfPointPlayerBoss.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\IfQuizCalculator.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\IfScorePlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\IfSpeed.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\PlayerElseIf.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\5. Switch Statements\ColorSwitch.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\5. Switch Statements\DifficultySwitch.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\5. Switch Statements\PointsSwitch.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\5. Switch Statements\WeaponSwitch.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\5. Switch Statements\WeaponSwitch2.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\DoWhileLoop.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\ForLoop.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\ForLoopBreak.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\LINQQuerySyntax.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\LoopBreakChallenge.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\SpeedChallenge2.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\SpeedDoWhile.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\SpeedLoopChallenge.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\VariousForLoops.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\WhileLoops.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\iEnumeratorForLoop.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ArrayForEach.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ArrayForEachMyOwn.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ArrayLogic.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ArrayRandomTest.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ArraySyntax.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ArrayTest.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\GameObjectArray.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ItemPresentationFixed.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\BlackColorChanger.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\ColorMethodPractice.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\MethodParameters.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\MethodPlayer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\MethodSyntax.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\MyOwnColorChanger.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\PlayerColorReturn.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\PositionArrayMethod.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\PutThemToZero.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\ReturnFunction.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\TransformPositions.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\AnimalOverrides.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\BankInheritance\Bank.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\BankInheritance\BankBehavior.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\BankInheritance\FederalCreditUnion.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\BankInheritance\FederalCreditUnionBehavior.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\CustomClasses.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\CustomerDatabaseChallenge.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\ItemClass\Item1.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\ItemClass\ItemDatabase.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\LivingThingsInheritance\Animals.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\LivingThingsInheritance\LivingThings.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\LivingThingsInheritance\LivingThingsDatabase.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\LivingThingsInheritance\Plants.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\PokemonLevelPractice\Move.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\PokemonLevelPractice\Pokemon.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\PokemonLevelPractice\Trainer.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\SpellClass\Spell.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\SpellClass\Wizard.cs" />
-    <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\StructDataExample.cs" />
-    <None Include="Assets\Text_Adventure\ProjectSettings\ProjectVersion.txt" />
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.CacheServer">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Monetization">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Entities.Properties">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Jobs">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Jobs.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Jobs.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Jobs.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Entities.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Entities.StaticTypeRegistry">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.StaticTypeRegistry.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Collections">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Scenes.Hybrid">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Scenes.Hybrid.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Scenes.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Physics">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Physics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Extensions">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Mathematics.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Searcher.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Extensions.Hybrid">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Physics.Hybrid">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Physics.Hybrid.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Entities.BuildUtils">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Entities.Hybrid.EndToEnd.Tests">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.Hybrid.EndToEnd.Tests.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Entities.Hybrid">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Properties">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Properties.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Physics.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Physics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Entities">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Transforms">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Transforms.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Transforms.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpatialTracking">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ScriptableBuildPipeline">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Transforms.Hybrid">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AIModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ARModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AccessibilityModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AssetBundleModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.AudioModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClothModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterInputModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ClusterRendererModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CrashReportingModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.DSPGraphModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.DirectorModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.GameCenterModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.GridModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.HotReloadModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ImageConversionModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.InputModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.JSONSerializeModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.LocalizationModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ParticleSystemModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PerformanceReportingModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.PhysicsModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ProfilerModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SharedInternalsModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpriteMaskModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SpriteShapeModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.StreamingModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SubstanceModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.SubsystemsModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TLSModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextCoreModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UIElementsNativeModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UNETModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UmbraModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityConnectModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityTestProtocolModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VFXModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VRModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.VideoModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.WindModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.XRModule">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/PackageCache/com.unity.burst@1.3.0-preview.7/Unity.Burst.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/PackageCache/com.unity.collections@0.5.2-preview.8/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="netstandard">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Win32.Primitives">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.AppContext">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Concurrent">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.NonGeneric">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Specialized">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.EventBasedAsync">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Primitives">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.TypeConverter">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Console">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data.Common">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Contracts">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Debug">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.FileVersionInfo">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Process">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.StackTrace">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.TextWriterTraceListener">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Tools">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.TraceSource">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.Tracing">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Drawing.Primitives">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Dynamic.Runtime">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization.Calendars">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Globalization.Extensions">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression.ZipFile">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.DriveInfo">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Primitives">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.FileSystem.Watcher">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.IsolatedStorage">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.MemoryMappedFiles">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Pipes">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.UnmanagedMemoryStream">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Expressions">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Parallel">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Linq.Queryable">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.NameResolution">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.NetworkInformation">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Ping">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Primitives">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Requests">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Security">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Sockets">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebHeaderCollection">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebSockets.Client">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.WebSockets">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ObjectModel">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Extensions">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Primitives">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.Reader">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.ResourceManager">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Resources.Writer">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.VisualC">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Extensions">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Handles">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Numerics">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Formatters">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Json">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Primitives">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization.Xml">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Claims">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Algorithms">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Csp">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Encoding">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.Primitives">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Cryptography.X509Certificates">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.Principal">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Security.SecureString">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encoding">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encoding.Extensions">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.RegularExpressions">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Overlapped">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks.Parallel">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Thread">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.ThreadPool">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Timer">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ValueTuple">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.ReaderWriter">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XDocument">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XmlDocument">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XmlSerializer">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.XPath.XDocument">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics.Vectors">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
-    </Reference>
-    <Reference Include="mscorlib">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.Composition">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Core">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
-    </Reference>
-    <Reference Include="System">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Drawing">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Numerics">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.Serialization">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ServiceModel.Web">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Transactions">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Windows">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Serialization">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
-    </Reference>
+     <Compile Include="Assets\BrackeysPoolManager.cs" />
+     <Compile Include="Assets\ObjectColorParameter.cs" />
+     <Compile Include="Assets\Scripts\ClassScripts\Assignments\Variables\Variables.cs" />
+     <Compile Include="Assets\Scripts\ClassScripts\Assignments\Variables\VariablesHomework1.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\AI\BRKYSEnemy.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\AI\BRKYSEnemyAI.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\AI\BRKYSEnemyStats.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\AI\BRKYSPlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Brackeys bullet tutorial\Bullet.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Brackeys bullet tutorial\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Brackeys bullet tutorial\WeaponPrefabVersion.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Brackeys bullet tutorial\WeaponRaycastVersion.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\BrackeysPlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\First Person Movement\FirstPersonPlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\First Person Movement\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Health Bar\Practice\BillBoardp.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Health Bar\Practice\HealthBarp.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Health Bar\Practice\Playerp.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Health Bar\bHbBillboard.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Health Bar\bHbHealthBar.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Health Bar\bHbPlayer.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Object Pooling\CubeForce.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Object Pooling\CubeSpawn.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Object Pooling\IPooledObject.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Save &amp; Load Systems\bPlayer.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Save &amp; Load Systems\bPlayerData.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Save &amp; Load Systems\bSaveSystem.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Scriptable Objects\bCard.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Scriptable Objects\bCardDisplay.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\TopDownMovement\TopDownPlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Turn-Based Combat\BattleHud.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Turn-Based Combat\BattleSystem.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Brackey&apos;s\Turn-Based Combat\Unit.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Code Monkey\DOTS Physics\BallJumpSystem.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\AdjustScript.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\GameControl.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Data Persistence\TraverseScreenScript.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Practice\AnotherReturnDelegate.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Practice\DelegatePractice.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Practice\LightBulb\LightBulb.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Practice\LightBulb\LightController.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Practice\LoopPractice.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Practice\PracticeEnum.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Practice\RayCastPractice.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Practice\TopDownMovementPractice.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\UFO&apos;s Tutorial\ExampleScript.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\UFO&apos;s Tutorial\MyController.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\UFO&apos;s Tutorial\ParticleController.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\UFO&apos;s Tutorial\SpawnPeaker.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\UFO&apos;s Tutorial\Spawner.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\UFO&apos;s Tutorial\UFOController.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Exit.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\GameController.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\InteractableItems.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\RoomNavigation.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Action Response\ActionResponse.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Action Response\ChangeRoomResponse.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Examine.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Go.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\InputAction.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Take.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\InputAction\Use.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Items\InteractableObject.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Items\Interaction.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\Rooms\Room.cs" />
+     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Scriptable Objects\TextInput.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\Crate.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\Main.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\Pause.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\Position.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\1. Basics\collectable.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\StaticConstructor.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\StaticEnemyData\Enemy2.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\StaticEnemyData\InstanceVsStatic.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\StaticEnemyData\SpawnManager.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\StaticEnemyData\UIManager.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\StaticExample.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\UtilityHelperClass\StaticColorChallenge.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\UtilityHelperClass\UPlayer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\10. Static Types\UtilityHelperClass\Utility.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\11. Properties\AutoProperty.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\11. Properties\ChallengeDeclareProperties.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\11. Properties\GetSetProperty.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\12. Namespaces\NameSpaceExample.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\13. Lists\BuildObjectListChallenge.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\13. Lists\ItemDBSystem\lItem.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\13. Lists\ItemDBSystem\lItemDatabase.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\13. Lists\ItemDBSystem\lPlayer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\13. Lists\ListSyntax.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\13. Lists\YouHaveBeenNamedChallenge.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\14. Enums\EnemyAI.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\14. Enums\EnumCustomClass\EnumItem.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\14. Enums\EnumCustomClass\EnumItemDB.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\14. Enums\EnumCustomClass\LevelSelector.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\14. Enums\EnumSyntax.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\14. Enums\MyOwnEnumCycle.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\15. Dictionary\DictPlayerConnections.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\15. Dictionary\DictionaryLoop.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\15. Dictionary\DictionarySyntax\DictItem.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\15. Dictionary\DictionarySyntax\DictionarySyntax.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\15. Dictionary\PrimitiveTypesDictionary.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\AbstractChallenge\AbEmployee.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\AbstractChallenge\AbFullTime.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\AbstractChallenge\AbPartTime.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\AbstractEnemy.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\Interfaces\Generics\IManipulateable.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\Interfaces\Interface Syntax\IDamagable.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\Interfaces\Interface Syntax\IShootable.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\Interfaces\Interface Syntax\InterEnemy.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\Interfaces\Interface Syntax\InterPlayer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\16. Abstract Classes\Interfaces\PolyMorphism\PMain.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Actions Syntax\ActionPlayer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Actions Syntax\ActionUIManager.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\DelegateSyntax.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Event Challenge\EChCube.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Event Challenge\EChMain.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\EventsSyntax\EGameObject.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\EventsSyntax\EMain.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\EventsSyntax\ESphere.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Lambda Operator.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\MyOwnLambda.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\NoParametersLambda.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Practicing Events\EventCamera.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Practicing Events\EventGameObject.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Return Type Delegates and Func\FuncSyntax.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\Return Type Delegates and Func\ReturnDelegateSyntax.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\ReturnParameterDelegate.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\ReturnVoidDelegate.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\SimpleCallbackSystem.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\17. Delegates and Events\VoidLambdaAction.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQChallenge.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQContains.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQDistinct.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQItemFilterChallenge.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQOrderByDescending.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQWhere.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\18. LINQ\LINQany.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\Lazy Instantiation\LazyInstantiation.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\Lazy Instantiation\LazyPlayer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\MonoLevelManager.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\MonoSingleton.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\SingletonSyntax\SingletonGameManager.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\SingletonSyntax\SingletonPlayer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\SingletonSyntax\SingletonSpawnManager.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\19. Singletons\SingletonSyntax\SingletonUIManager.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\2. Rotations\Aim.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\2. Rotations\AimSlerp.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\2. Rotations\SpawnCube.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\2. Rotations\SpawnCubeEular.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\PoolBullet.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\PoolPlayer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\PoolPoolManager.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\Practice\Bomb.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\Practice\PoolManager2.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\20. Object Pooling\Practice\poolPlayer2.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\ColorClick\ClickCmd.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\ColorClick\CommandManager.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\ColorClick\ICommand.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\ColorClick\UserClick.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Commands\cpCmdDown.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Commands\cpCmdLeft.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Commands\cpCmdRight.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Commands\cpCmdUp.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\Interfaces\cpICommand.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\cpComManager.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\21. Command Pattern\Practical Implementation\cpPlayer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\3. Variables\Item.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\3. Variables\Player.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\3. Variables\QuizCalculator.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\3. Variables\TipCalculator.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\IfPlayer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\IfPointPlayer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\IfPointPlayerBoss.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\IfQuizCalculator.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\IfScorePlayer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\IfSpeed.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\4. If Statements\PlayerElseIf.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\5. Switch Statements\ColorSwitch.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\5. Switch Statements\DifficultySwitch.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\5. Switch Statements\PointsSwitch.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\5. Switch Statements\WeaponSwitch.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\5. Switch Statements\WeaponSwitch2.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\DoWhileLoop.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\ForLoop.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\ForLoopBreak.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\LINQQuerySyntax.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\LoopBreakChallenge.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\SpeedChallenge2.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\SpeedDoWhile.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\SpeedLoopChallenge.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\VariousForLoops.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\WhileLoops.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\6. Loops\iEnumeratorForLoop.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ArrayForEach.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ArrayForEachMyOwn.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ArrayLogic.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ArrayRandomTest.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ArraySyntax.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ArrayTest.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\GameObjectArray.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\7. Arrays\ItemPresentationFixed.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\BlackColorChanger.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\ColorMethodPractice.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\MethodParameters.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\MethodPlayer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\MethodSyntax.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\MyOwnColorChanger.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\PlayerColorReturn.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\PositionArrayMethod.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\PutThemToZero.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\ReturnFunction.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\8. Functions and Methods\TransformPositions.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\AnimalOverrides.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\BankInheritance\Bank.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\BankInheritance\BankBehavior.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\BankInheritance\FederalCreditUnion.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\BankInheritance\FederalCreditUnionBehavior.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\CustomClasses.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\CustomerDatabaseChallenge.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\ItemClass\Item1.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\ItemClass\ItemDatabase.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\LivingThingsInheritance\Animals.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\LivingThingsInheritance\LivingThings.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\LivingThingsInheritance\LivingThingsDatabase.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\LivingThingsInheritance\Plants.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\PokemonLevelPractice\Move.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\PokemonLevelPractice\Pokemon.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\PokemonLevelPractice\Trainer.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\SpellClass\Spell.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\SpellClass\Wizard.cs" />
+     <Compile Include="Assets\Scripts\UnitySurvivalGuideScripts\9. Classes\StructDataExample.cs" />
+     <None Include="Assets\Text_Adventure\ProjectSettings\ProjectVersion.txt" />
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.CacheServer">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Monetization">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEngine.Monetization.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Burst">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Entities.Properties">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Jobs">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Jobs.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Jobs.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Jobs.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Entities.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Entities.StaticTypeRegistry">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.StaticTypeRegistry.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Burst.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Collections">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Scenes.Hybrid">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Scenes.Hybrid.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Scenes.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Scenes.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Physics">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Physics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Extensions">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Mathematics.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Searcher.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Extensions.Hybrid">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Physics.Hybrid">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Physics.Hybrid.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Entities.BuildUtils">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Entities.Hybrid.EndToEnd.Tests">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.Hybrid.EndToEnd.Tests.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Entities.Hybrid">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Properties">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Properties.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Physics.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Physics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Entities">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Transforms">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Transforms.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Transforms.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Transforms.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SpatialTracking">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ScriptableBuildPipeline">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Transforms.Hybrid">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AndroidJNIModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DSPGraphModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputLegacyModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubsystemsModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsNativeModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/Managed/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Burst.Unsafe">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/PackageCache/com.unity.burst@1.3.0-preview.7/Unity.Burst.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.Unsafe">
+ <HintPath>C:/Users/jacob/OneDrive/Utah Valley University/Scripting/Scripting Spring 2020/Spring2020Project/Library/PackageCache/com.unity.collections@0.5.2-preview.8/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tracing">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Composition">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.FileSystem">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Web">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Transactions">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Web">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Windows">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Serialization">
+ <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.0b5/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
