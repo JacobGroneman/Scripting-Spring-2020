@@ -73,6 +73,7 @@
               <e p="DOTS Physics" t="Include">
                 <e p="BallJumpSystem.cs" t="Include" />
                 <e p="TestRaycast.cs" t="Include" />
+                <e p="TestTriggers.cs" t="Include" />
               </e>
             </e>
             <e p="Data Persistence" t="Include">
