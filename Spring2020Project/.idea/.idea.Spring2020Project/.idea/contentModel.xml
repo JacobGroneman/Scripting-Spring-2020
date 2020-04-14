@@ -63,6 +63,9 @@
               <e p="TopDownMovement" t="Include">
                 <e p="TopDownPlayerMovement.cs" t="Include" />
               </e>
+              <e p="TopDownShooting" t="Include">
+                <e p="bkysSPlayerMovement.cs" t="Include" />
+              </e>
               <e p="Turn-Based Combat" t="Include">
                 <e p="BattleHud.cs" t="Include" />
                 <e p="BattleSystem.cs" t="Include" />
