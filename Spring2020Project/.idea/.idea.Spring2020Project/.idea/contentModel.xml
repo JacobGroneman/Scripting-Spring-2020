@@ -89,6 +89,11 @@
             <e p="Practice" t="Include">
               <e p="AnotherReturnDelegate.cs" t="Include" />
               <e p="DelegatePractice.cs" t="Include" />
+              <e p="HealthBarPractice" t="Include">
+                <e p="HbPPlayer.cs" t="Include" />
+                <e p="HealthBar.cs" t="Include" />
+                <e p="InputManager.cs" t="Include" />
+              </e>
               <e p="LightBulb" t="Include">
                 <e p="LightBulb.cs" t="Include" />
                 <e p="LightController.cs" t="Include" />
