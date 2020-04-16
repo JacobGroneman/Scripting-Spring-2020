@@ -97,6 +97,7 @@
      <Compile Include="Assets\Scripts\Other Scripts\Practice\HealthBarPractice\HbPPlayer.cs" />
      <Compile Include="Assets\Scripts\Other Scripts\Practice\HealthBarPractice\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Other Scripts\Practice\HealthBarPractice\InputManager.cs" />
+     <Compile Include="Assets\Scripts\Other Scripts\Practice\Lazy Instantiation\LInPractice.cs" />
      <Compile Include="Assets\Scripts\Other Scripts\Practice\LightBulb\LightBulb.cs" />
      <Compile Include="Assets\Scripts\Other Scripts\Practice\LightBulb\LightController.cs" />
      <Compile Include="Assets\Scripts\Other Scripts\Practice\LoopPractice.cs" />

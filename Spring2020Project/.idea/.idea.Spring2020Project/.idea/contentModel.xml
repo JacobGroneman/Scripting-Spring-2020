@@ -94,6 +94,9 @@
                 <e p="HealthBar.cs" t="Include" />
                 <e p="InputManager.cs" t="Include" />
               </e>
+              <e p="Lazy Instantiation" t="Include">
+                <e p="LInPractice.cs" t="Include" />
+              </e>
               <e p="LightBulb" t="Include">
                 <e p="LightBulb.cs" t="Include" />
                 <e p="LightController.cs" t="Include" />
