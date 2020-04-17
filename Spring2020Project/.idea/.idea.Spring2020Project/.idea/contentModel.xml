@@ -86,6 +86,13 @@
               <e p="GameControl.cs" t="Include" />
               <e p="TraverseScreenScript.cs" t="Include" />
             </e>
+            <e p="Level Unlocking" t="Include">
+              <e p="Killer.cs" t="Include" />
+              <e p="LevelControlScript.cs" t="Include" />
+              <e p="LevelManager.cs" t="Include" />
+              <e p="MainMenuManager.cs" t="Include" />
+              <e p="Trophy.cs" t="Include" />
+            </e>
             <e p="Practice" t="Include">
               <e p="AnotherReturnDelegate.cs" t="Include" />
               <e p="DelegatePractice.cs" t="Include" />
