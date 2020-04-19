@@ -114,6 +114,7 @@
               <e p="RayCastPractice.cs" t="Include" />
               <e p="ReturnDelegatePractice.cs" t="Include" />
               <e p="TopDownMovementPractice.cs" t="Include" />
+              <e p="WhileLoopPractice.cs" t="Include" />
             </e>
             <e p="UFO's Tutorial" t="Include">
               <e p="ExampleScript.cs" t="Include" />
