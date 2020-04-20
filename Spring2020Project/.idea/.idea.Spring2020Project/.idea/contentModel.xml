@@ -96,6 +96,7 @@
             <e p="Practice" t="Include">
               <e p="AnotherReturnDelegate.cs" t="Include" />
               <e p="DelegatePractice.cs" t="Include" />
+              <e p="DialogPractice.cs" t="Include" />
               <e p="HealthBarPractice" t="Include">
                 <e p="HbPPlayer.cs" t="Include" />
                 <e p="HealthBar.cs" t="Include" />
