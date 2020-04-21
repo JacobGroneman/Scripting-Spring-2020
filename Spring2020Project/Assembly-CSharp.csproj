@@ -121,6 +121,7 @@
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\SpawnPeaker.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\Spawner.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\UFOController.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Vectors\AIMove.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Exit.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\GameController.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\InteractableItems.cs" />
