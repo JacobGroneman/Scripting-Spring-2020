@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class AIMove : MonoBehaviour
 {
-    private Vector3 _goal = new Vector3(5, 0, 4);
+    public Vector3 goal = new Vector3(5, 0, 4);
+    public float speed = 0.1f;
     
-    void Update()
+    void LateUpdate()
     {
-        this.transform.Translate(_goal);
+        this.transform.Translate(goal.normalized * speed * Time.deltaTime);
     }
 }
