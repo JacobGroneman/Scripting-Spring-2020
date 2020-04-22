@@ -130,6 +130,7 @@
           <e p="Unity Artificial Intelligence" t="Include">
             <e p="Vectors" t="Include">
               <e p="AIMove.cs" t="Include" />
+              <e p="AIMoveToGoal.cs" t="Include" />
             </e>
           </e>
           <e p="Unity Text Adventure Scripting" t="Include">
