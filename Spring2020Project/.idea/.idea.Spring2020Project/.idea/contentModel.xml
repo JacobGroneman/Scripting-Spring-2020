@@ -111,6 +111,7 @@
                 <e p="LightController.cs" t="Include" />
               </e>
               <e p="LoopPractice.cs" t="Include" />
+              <e p="PatientDictionary.cs" t="Include" />
               <e p="PracticeEnum.cs" t="Include" />
               <e p="RayCastPractice.cs" t="Include" />
               <e p="ReturnDelegatePractice.cs" t="Include" />
@@ -128,7 +129,7 @@
             </e>
           </e>
           <e p="Unity Artificial Intelligence" t="Include">
-            <e p="Vectors" t="Include">
+            <e p="1. Vectors" t="Include">
               <e p="AIMove.cs" t="Include" />
               <e p="AIMoveToGoal.cs" t="Include" />
             </e>
