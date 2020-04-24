@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Debug = System.Diagnostics.Debug;
 
-public class OnlinePlayer
+/*public class OnlinePlayer
 {
     public string playerName;
     private int playerID {get;}
@@ -37,4 +37,4 @@ public class DictPlayerConnections : MonoBehaviour
             UnityEngine.Debug.Log( player3.playerName + " Selected");
         }
     }
-}
+}*/
