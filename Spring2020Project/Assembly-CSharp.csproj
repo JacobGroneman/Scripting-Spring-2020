@@ -126,6 +126,7 @@
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\UFOController.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\1. Vectors\AIMove.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\1. Vectors\AIMoveToGoal.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\2. Calculating Distance\AIDrive.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Exit.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\GameController.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\InteractableItems.cs" />
