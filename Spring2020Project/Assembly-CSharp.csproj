@@ -124,9 +124,10 @@
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\SpawnPeaker.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\Spawner.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\UFOController.cs" />
-    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\1. Vectors\AIMove.cs" />
-    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\1. Vectors\AIMoveToGoal.cs" />
-    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\2. Calculating Distance\AIDrive.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Mathmatics of AI\1. Vectors\AIMove.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Mathmatics of AI\1. Vectors\AIMoveToGoal.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Mathmatics of AI\2. Calculating Distance\AIDrive.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Mathmatics of AI\3. Dot Product\AIDrive1.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Exit.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\GameController.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\InteractableItems.cs" />

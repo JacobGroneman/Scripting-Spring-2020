@@ -131,12 +131,17 @@
             </e>
           </e>
           <e p="Unity Artificial Intelligence" t="Include">
-            <e p="1. Vectors" t="Include">
-              <e p="AIMove.cs" t="Include" />
-              <e p="AIMoveToGoal.cs" t="Include" />
-            </e>
-            <e p="2. Calculating Distance" t="Include">
-              <e p="AIDrive.cs" t="Include" />
+            <e p="The Mathmatics of AI" t="Include">
+              <e p="1. Vectors" t="Include">
+                <e p="AIMove.cs" t="Include" />
+                <e p="AIMoveToGoal.cs" t="Include" />
+              </e>
+              <e p="2. Calculating Distance" t="Include">
+                <e p="AIDrive.cs" t="Include" />
+              </e>
+              <e p="3. Dot Product" t="Include">
+                <e p="AIDrive1.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Unity Text Adventure Scripting" t="Include">
