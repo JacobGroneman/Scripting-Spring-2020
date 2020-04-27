@@ -128,6 +128,7 @@
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Mathmatics of AI\1. Vectors\AIMoveToGoal.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Mathmatics of AI\2. Calculating Distance\AIDrive.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Mathmatics of AI\3. Dot Product\AIDrive1.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Mathmatics of AI\4. Cross Product\AIDrive2.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Exit.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\GameController.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\InteractableItems.cs" />
