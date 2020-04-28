@@ -145,6 +145,9 @@
               <e p="4. Cross Product" t="Include">
                 <e p="AIDrive2.cs" t="Include" />
               </e>
+              <e p="5. AutoPilot" t="Include">
+                <e p="AIDrive4.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Unity Text Adventure Scripting" t="Include">
