@@ -149,6 +149,14 @@
                 <e p="AIDrive4.cs" t="Include" />
               </e>
             </e>
+            <e p="The Physics of AI" t="Include">
+              <e p="Time" t="Include">
+                <e p="FixedUpdateMoveMethod.cs" t="Include" />
+                <e p="LateUpdateMoveMethod.cs" t="Include" />
+                <e p="SecondsUpdateMoveMethod.cs" t="Include" />
+                <e p="UpdateMoveMethod.cs" t="Include" />
+              </e>
+            </e>
           </e>
           <e p="Unity Text Adventure Scripting" t="Include">
             <e p="Exit.cs" t="Include" />
