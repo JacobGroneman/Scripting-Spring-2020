@@ -156,6 +156,9 @@
                 <e p="SecondsUpdateMoveMethod.cs" t="Include" />
                 <e p="UpdateMoveMethod.cs" t="Include" />
               </e>
+              <e p="Velocity" t="Include">
+                <e p="BulletShellMove.cs" t="Include" />
+              </e>
             </e>
           </e>
           <e p="Unity Text Adventure Scripting" t="Include">
