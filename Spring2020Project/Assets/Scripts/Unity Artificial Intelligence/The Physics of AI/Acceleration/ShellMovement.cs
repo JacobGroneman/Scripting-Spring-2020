@@ -6,14 +6,14 @@ using UnityEngine.UI;
 public class ShellMovement : MonoBehaviour
 {
     public GameObject explosion;
-    private float _mass = 10f; //(Kilograms)
+    /*private float _mass = 10f; //(Kilograms)
     private float _force = 200f;
     private float _acceleration;
     private float _velocityZ; //(speed)'
    
     private float _velocityY;
     private float _gAcceleration;
-    private float _gravityY = 9.81f;
+    private float _gravityY = 9.81f;*/
 
     void OnCollisionEnter(Collider col)
     {
@@ -26,7 +26,7 @@ public class ShellMovement : MonoBehaviour
     }
 
     void LateUpdate()
-    {
+    {/*
         //Z Acceleration
         _acceleration = (_force / _mass);
         _velocityZ += _acceleration * Time.deltaTime;
@@ -43,6 +43,6 @@ public class ShellMovement : MonoBehaviour
         if (_force <= 0)
         {
             _force = 0;
-        }
+        } */
     }
 }
