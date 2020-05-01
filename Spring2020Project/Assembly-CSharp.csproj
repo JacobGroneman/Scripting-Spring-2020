@@ -130,6 +130,8 @@
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Mathmatics of AI\3. Dot Product\AIDrive1.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Mathmatics of AI\4. Cross Product\AIDrive2.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Mathmatics of AI\5. AutoPilot\AIDrive4.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Acceleration\ShellMovement.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Acceleration\TankShoot.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Time\FixedUpdateMoveMethod.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Time\LateUpdateMoveMethod.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Time\SecondsUpdateMoveMethod.cs" />
