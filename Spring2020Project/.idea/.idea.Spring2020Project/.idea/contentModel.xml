@@ -105,6 +105,10 @@
                 <e p="InputManager.cs" t="Include" />
               </e>
               <e p="InputRotation.cs" t="Include" />
+              <e p="ItemCollection" t="Include">
+                <e p="ItemCollectionPlayer.cs" t="Include" />
+                <e p="PlayerUIManager.cs" t="Include" />
+              </e>
               <e p="Lazy Instantiation" t="Include">
                 <e p="LInPractice.cs" t="Include" />
               </e>
@@ -151,6 +155,7 @@
             </e>
             <e p="The Physics of AI" t="Include">
               <e p="Acceleration" t="Include">
+                <e p="pItemManager.cs" t="Include" />
                 <e p="ShellMovement.cs" t="Include" />
                 <e p="TankShoot.cs" t="Include" />
               </e>

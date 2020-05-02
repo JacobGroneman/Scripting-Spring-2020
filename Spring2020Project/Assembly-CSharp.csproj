@@ -107,6 +107,8 @@
     <Compile Include="Assets\Scripts\Other Scripts\Practice\HealthBarPractice\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\HealthBarPractice\InputManager.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\InputRotation.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Practice\ItemCollection\ItemCollectionPlayer.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Practice\ItemCollection\PlayerUIManager.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\Lazy Instantiation\LInPractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\LightBulb\LightBulb.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\LightBulb\LightController.cs" />
@@ -132,6 +134,7 @@
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Mathmatics of AI\5. AutoPilot\AIDrive4.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Acceleration\ShellMovement.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Acceleration\TankShoot.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Acceleration\pItemManager.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Time\FixedUpdateMoveMethod.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Time\LateUpdateMoveMethod.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Time\SecondsUpdateMoveMethod.cs" />
