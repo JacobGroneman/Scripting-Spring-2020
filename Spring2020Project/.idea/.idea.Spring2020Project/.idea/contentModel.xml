@@ -172,6 +172,11 @@
               <e p="Velocity" t="Include">
                 <e p="BulletShellMove.cs" t="Include" />
               </e>
+              <e p="Waypoints &amp; Graphs" t="Include">
+                <e p="WayPoints" t="Include">
+                  <e p="followWaypoint.cs" t="Include" />
+                </e>
+              </e>
             </e>
           </e>
           <e p="Unity Text Adventure Scripting" t="Include">
