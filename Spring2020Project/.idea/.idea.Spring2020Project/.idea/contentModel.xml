@@ -173,6 +173,9 @@
                 <e p="BulletShellMove.cs" t="Include" />
               </e>
               <e p="Waypoints &amp; Graphs" t="Include">
+                <e p="Following a Circuit" t="Include">
+                  <e p="followWaypoint1.cs" t="Include" />
+                </e>
                 <e p="WayPoints" t="Include">
                   <e p="followWaypoint.cs" t="Include" />
                 </e>
