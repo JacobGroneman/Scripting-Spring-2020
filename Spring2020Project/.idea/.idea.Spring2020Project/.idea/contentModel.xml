@@ -125,6 +125,7 @@
               <e p="TimerDisplayPractice.cs" t="Include" />
               <e p="TopDownMovementPractice.cs" t="Include" />
               <e p="WhileLoopPractice.cs" t="Include" />
+              <e p="WhileLoopsPractice.cs" t="Include" />
             </e>
             <e p="UFO's Tutorial" t="Include">
               <e p="ExampleScript.cs" t="Include" />
@@ -173,6 +174,9 @@
                 <e p="BulletShellMove.cs" t="Include" />
               </e>
               <e p="Waypoints &amp; Graphs" t="Include">
+                <e p="Astar for Pathfinding" t="Include">
+                  <e p="WaypointManager.cs" t="Include" />
+                </e>
                 <e p="Following a Circuit" t="Include">
                   <e p="followWaypoint1.cs" t="Include" />
                 </e>

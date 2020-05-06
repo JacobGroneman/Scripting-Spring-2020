@@ -121,6 +121,7 @@
     <Compile Include="Assets\Scripts\Other Scripts\Practice\TimerDisplayPractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\TopDownMovementPractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\WhileLoopPractice.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Practice\WhileLoopsPractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\ExampleScript.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\MyController.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\ParticleController.cs" />
@@ -142,6 +143,7 @@
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Time\SecondsUpdateMoveMethod.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Time\UpdateMoveMethod.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Velocity\BulletShellMove.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Waypoints &amp; Graphs\Astar for Pathfinding\WaypointManager.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Waypoints &amp; Graphs\Following a Circuit\followWaypoint1.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Waypoints &amp; Graphs\WayPoints\followWaypoint.cs" />
     <Compile Include="Assets\Scripts\Unity Text Adventure Scripting\Exit.cs" />
