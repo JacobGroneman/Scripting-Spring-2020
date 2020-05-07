@@ -127,6 +127,9 @@
               <e p="PracticeEnum.cs" t="Include" />
               <e p="RayCastPractice.cs" t="Include" />
               <e p="ReturnDelegatePractice.cs" t="Include" />
+              <e p="RotateObject" t="Include">
+                <e p="RotateController.cs" t="Include" />
+              </e>
               <e p="TimerDisplayPractice.cs" t="Include" />
               <e p="TopDownMovementPractice.cs" t="Include" />
               <e p="WhileLoopPractice.cs" t="Include" />

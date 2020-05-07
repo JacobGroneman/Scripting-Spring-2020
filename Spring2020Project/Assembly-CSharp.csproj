@@ -121,6 +121,7 @@
     <Compile Include="Assets\Scripts\Other Scripts\Practice\PracticeEnum.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\RayCastPractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\ReturnDelegatePractice.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Practice\RotateObject\RotateController.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\TimerDisplayPractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\TopDownMovementPractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\WhileLoopPractice.cs" />
