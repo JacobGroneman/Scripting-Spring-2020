@@ -119,6 +119,11 @@
               </e>
               <e p="LoopPractice.cs" t="Include" />
               <e p="PatientDictionary.cs" t="Include" />
+              <e p="PolyMorphismPractice" t="Include">
+                <e p="Characterspmp.cs" t="Include" />
+                <e p="Enemiespmp1.cs" t="Include" />
+                <e p="Mainpmp.cs" t="Include" />
+              </e>
               <e p="PracticeEnum.cs" t="Include" />
               <e p="RayCastPractice.cs" t="Include" />
               <e p="ReturnDelegatePractice.cs" t="Include" />

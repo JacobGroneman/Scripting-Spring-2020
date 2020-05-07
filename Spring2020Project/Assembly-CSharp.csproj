@@ -115,6 +115,9 @@
     <Compile Include="Assets\Scripts\Other Scripts\Practice\LightBulb\LightController.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\LoopPractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\PatientDictionary.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Practice\PolyMorphismPractice\Characterspmp.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Practice\PolyMorphismPractice\Enemiespmp1.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Practice\PolyMorphismPractice\Mainpmp.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\PracticeEnum.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\RayCastPractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\ReturnDelegatePractice.cs" />
