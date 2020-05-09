@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TankShoot : MonoBehaviour
+/*public class TankShoot : MonoBehaviour
 {
     public GameObject shellPrefab, shellSpawnPosition, target, parent;
     private float _velocity = 15f;
@@ -60,4 +60,4 @@ public class TankShoot : MonoBehaviour
             return null;
         }
     }
-}
+}*/

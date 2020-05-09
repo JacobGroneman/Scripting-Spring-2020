@@ -14,7 +14,7 @@ public class WaypointManager : MonoBehaviour
 {
     public GameObject[] waypoints;
     public Link[] links;
-    public Graph graph = new Graph();
+    //public Graph graph = new Graph();
 
     void Start()
     {
