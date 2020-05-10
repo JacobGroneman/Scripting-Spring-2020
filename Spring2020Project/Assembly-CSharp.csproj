@@ -147,6 +147,10 @@
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Time\SecondsUpdateMoveMethod.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Time\UpdateMoveMethod.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Velocity\BulletShellMove.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Waypoints &amp; Graphs\Astar for Pathfinding\FollowPath.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Waypoints &amp; Graphs\Astar for Pathfinding\Graphs\Edge.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Waypoints &amp; Graphs\Astar for Pathfinding\Graphs\Graph.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Waypoints &amp; Graphs\Astar for Pathfinding\Graphs\Node.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Waypoints &amp; Graphs\Astar for Pathfinding\WaypointManager.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Waypoints &amp; Graphs\Following a Circuit\followWaypoint1.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\The Physics of AI\Waypoints &amp; Graphs\WayPoints\followWaypoint.cs" />
