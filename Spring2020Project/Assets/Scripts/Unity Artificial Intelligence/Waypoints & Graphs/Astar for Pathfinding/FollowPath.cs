@@ -62,4 +62,10 @@ public class FollowPath : MonoBehaviour
         _graph.AStar(_currentNode, _waypoints[0]);
         currentWaypoint = 0;
     }
+    
+    public void GoToTank()
+    {
+        _graph.AStar(_currentNode, _waypoints[8]);
+        currentWaypoint = 0;
+    }
 }
