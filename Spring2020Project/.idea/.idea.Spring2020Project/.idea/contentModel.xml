@@ -146,7 +146,13 @@
           </e>
           <e p="Unity Artificial Intelligence" t="Include">
             <e p="Nav Meshes" t="Include">
-              <e p="FollowPath1.cs" t="Include" />
+              <e p="From Waypoints to NavMesh" t="Include">
+                <e p="FollowPath1.cs" t="Include" />
+              </e>
+              <e p="NavMesh Agents" t="Include">
+                <e p="AgentManager.cs" t="Include" />
+                <e p="AIControl.cs" t="Include" />
+              </e>
             </e>
             <e p="The Mathmatics of AI" t="Include">
               <e p="1. Vectors" t="Include">
