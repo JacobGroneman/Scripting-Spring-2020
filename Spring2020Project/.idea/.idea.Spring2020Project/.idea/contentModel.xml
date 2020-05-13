@@ -153,6 +153,9 @@
                 <e p="AgentManager.cs" t="Include" />
                 <e p="AIControl.cs" t="Include" />
               </e>
+              <e p="Player Follow &amp; Off-Mesh Links" t="Include">
+                <e p="ChasePlayer.cs" t="Include" />
+              </e>
             </e>
             <e p="The Mathmatics of AI" t="Include">
               <e p="1. Vectors" t="Include">
