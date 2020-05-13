@@ -145,6 +145,11 @@
             </e>
           </e>
           <e p="Unity Artificial Intelligence" t="Include">
+            <e p="Finite State Machines" t="Include">
+              <e p="Finite State Machines" t="Include">
+                <e p="GameEnvironment.cs" t="Include" />
+              </e>
+            </e>
             <e p="Nav Meshes" t="Include">
               <e p="From Waypoints to NavMesh" t="Include">
                 <e p="FollowPath1.cs" t="Include" />
