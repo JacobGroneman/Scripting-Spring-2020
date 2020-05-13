@@ -132,6 +132,8 @@
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\SpawnPeaker.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\Spawner.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\UFOController.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Finite State Machines\Creating and Using a State Class\Idle.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Finite State Machines\Creating and Using a State Class\StateClass.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Finite State Machines\Finite State Machines\GameEnvironment.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Nav Meshes\From Waypoints to NavMesh\FollowPath1.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Nav Meshes\NavMesh Agents\AIControl.cs" />
