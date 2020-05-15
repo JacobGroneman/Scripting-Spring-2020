@@ -154,6 +154,7 @@
                 <e p="GameEnvironment.cs" t="Include" />
               </e>
               <e p="Patrolling the Perimeter" t="Include">
+                <e p="AI_ptp.cs" t="Include" />
                 <e p="Patrol.cs" t="Include" />
               </e>
             </e>

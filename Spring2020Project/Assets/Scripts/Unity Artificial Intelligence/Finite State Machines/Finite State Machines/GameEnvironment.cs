@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public sealed class GameEnvironment : MonoBehaviour
@@ -16,6 +17,9 @@ public sealed class GameEnvironment : MonoBehaviour
             {
                 instance = new GameEnvironment();
                 instance.Checkpoints.AddRange(GameObject.FindGameObjectsWithTag("Checkpoint"));
+
+                //Alphabetical Order Checkpoints
+                instance._checkpoints = instance._checkpoints.OrderBy(waypoint => waypoint.name).ToList();
             }
             return instance;
         }

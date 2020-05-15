@@ -35,7 +35,6 @@ public class Patrol : StateClass
                 (GameEnvironment.Singleton
                 .Checkpoints[_currentIndex].transform.position);
         }
-        base.Update();
     }
 
     public override void Exit()
