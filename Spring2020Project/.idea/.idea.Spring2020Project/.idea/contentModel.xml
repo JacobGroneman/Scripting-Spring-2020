@@ -153,6 +153,9 @@
               <e p="Finite State Machines" t="Include">
                 <e p="GameEnvironment.cs" t="Include" />
               </e>
+              <e p="Patrolling the Perimeter" t="Include">
+                <e p="Patrol.cs" t="Include" />
+              </e>
             </e>
             <e p="Nav Meshes" t="Include">
               <e p="From Waypoints to NavMesh" t="Include">
