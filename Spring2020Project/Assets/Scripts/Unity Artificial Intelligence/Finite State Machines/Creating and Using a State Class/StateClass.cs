@@ -47,4 +47,27 @@ public class StateClass : MonoBehaviour
         }
         return this;
     }
+
+    public bool CanSeePlayer()
+    {
+        Vector3 direction = player.position - npc.transform.position;
+        float angle = Vector3.Angle(direction, npc.transform.forward);
+        
+        if (direction.magnitude < this._visibleDistance && angle < _visibleAngle)
+        {
+            return true;
+        }
+        return false;
+    }
+
+    public bool CanAttackPlayer()
+    {
+        Vector3 direction = player.position - npc.transform.position;
+        
+        if (direction.magnitude < _shootDistance)
+        {
+            return true;
+        }
+        return false;
+    }
 }

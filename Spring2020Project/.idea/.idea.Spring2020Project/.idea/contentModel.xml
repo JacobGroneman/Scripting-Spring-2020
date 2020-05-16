@@ -146,6 +146,10 @@
           </e>
           <e p="Unity Artificial Intelligence" t="Include">
             <e p="Finite State Machines" t="Include">
+              <e p="Chasing the Player" t="Include">
+                <e p="fsmAttack.cs" t="Include" />
+                <e p="Pursue.cs" t="Include" />
+              </e>
               <e p="Creating and Using a State Class" t="Include">
                 <e p="Idle.cs" t="Include" />
                 <e p="StateClass.cs" t="Include" />
