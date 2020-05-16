@@ -17,7 +17,24 @@ public class Patrol : StateClass
 
     public override void Enter()
     {
-        _currentIndex = 0;
+                                                #region ReturnToNearestWaypoint
+        
+        float lastDistance = Mathf.Infinity;
+        
+        for (int i = 0; i < GameEnvironment.Singleton.Checkpoints.Count; i++)
+        {
+            GameObject thisWaypoint = GameEnvironment.Singleton.Checkpoints[i];
+            float distance = Vector3.Distance
+                (npc.transform.position, thisWaypoint.transform.position);
+
+            if (distance < lastDistance)
+            {
+                _currentIndex = i - 1; //-1 corrects the Way-point Number when "_currentIndex++;" in Update()
+                lastDistance = distance;
+            }
+        }
+                                                #endregion
+        
         anim.SetTrigger("isWalking");
         base.Enter();
     }
@@ -34,6 +51,11 @@ public class Patrol : StateClass
             agent.SetDestination
                 (GameEnvironment.Singleton
                 .Checkpoints[_currentIndex].transform.position);
+        }
+        if (CanSeePlayer())
+        {
+            nextState = new Pursue(npc, agent, anim, player);
+            stage = EVENT.EXIT;
         }
     }
 

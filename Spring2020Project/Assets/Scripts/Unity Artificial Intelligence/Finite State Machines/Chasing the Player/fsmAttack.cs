@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -26,11 +27,25 @@ public class fsmAttack : StateClass
 
     public override void Update()
     {
-        base.Update();
+        Vector3 direction = player.position - npc.transform.position;
+        float angle = Vector3.Angle(direction, npc.transform.forward);
+        direction.y = 0; //Prevents Tilting
+       
+        npc.transform.rotation = Quaternion.Slerp
+            (npc.transform.rotation, Quaternion.LookRotation(direction), 
+            _rotationSpeed * Time.deltaTime);
+
+        if (!CanAttackPlayer())
+        {
+            nextState = new Idle(npc, agent, anim, player);
+            stage = EVENT.EXIT;
+        }
     }
 
     public override void Exit()
     {
+        anim.ResetTrigger("isAttacking");
+        _shootAudio.Stop();
         base.Exit();
     }
 }
