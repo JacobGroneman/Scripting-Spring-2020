@@ -102,6 +102,7 @@
     <Compile Include="Assets\Scripts\Other Scripts\Practice\ColorGetSet.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\DelegatePractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\DialogPractice.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Practice\Flying.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\GetSetPractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\HealthBarPractice\HbPPlayer.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\HealthBarPractice\HealthBar.cs" />

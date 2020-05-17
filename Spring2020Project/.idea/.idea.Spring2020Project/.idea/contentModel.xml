@@ -98,6 +98,7 @@
               <e p="ColorGetSet.cs" t="Include" />
               <e p="DelegatePractice.cs" t="Include" />
               <e p="DialogPractice.cs" t="Include" />
+              <e p="Flying.cs" t="Include" />
               <e p="GetSetPractice.cs" t="Include" />
               <e p="HealthBarPractice" t="Include">
                 <e p="HbPPlayer.cs" t="Include" />
