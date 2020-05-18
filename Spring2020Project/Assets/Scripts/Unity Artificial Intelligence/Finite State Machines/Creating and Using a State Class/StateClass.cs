@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class StateClass : MonoBehaviour
 {
     public enum STATE
-    {IDLE, PATROL, PURSUE, ATTACKING, ASLEEP};
+    {IDLE, PATROL, PURSUE, ATTACKING, ASLEEP, ASYLUM};
 
     public enum EVENT
     {ENTER, UPDATE, EXIT};
@@ -54,6 +54,18 @@ public class StateClass : MonoBehaviour
         float angle = Vector3.Angle(direction, npc.transform.forward);
         
         if (direction.magnitude < this._visibleDistance && angle < _visibleAngle)
+        {
+            return true;
+        }
+        return false;
+    }
+    
+    public bool IsPlayerBehind()
+    {
+        Vector3 direction = npc.transform.position - player.position;
+        float angle = Vector3.Angle(direction, npc.transform.forward);
+
+        if (angle < 30.0f && direction.magnitude < 2.0f)
         {
             return true;
         }

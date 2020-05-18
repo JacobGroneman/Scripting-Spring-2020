@@ -137,6 +137,7 @@
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Finite State Machines\Chasing the Player\fsmAttack.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Finite State Machines\Creating and Using a State Class\Idle.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Finite State Machines\Creating and Using a State Class\StateClass.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Finite State Machines\Finite State Machine Challenge\Asylum.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Finite State Machines\Finite State Machines\GameEnvironment.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Finite State Machines\Patrolling the Perimeter\AI_ptp.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Finite State Machines\Patrolling the Perimeter\Patrol.cs" />
