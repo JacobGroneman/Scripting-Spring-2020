@@ -99,6 +99,7 @@
     <Compile Include="Assets\Scripts\Other Scripts\Level Unlocking\MainMenuManager.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Level Unlocking\Trophy.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\AnotherReturnDelegate.cs" />
+    <Compile Include="Assets\Scripts\Other Scripts\Practice\CheckpointsSwitch.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\ColorGetSet.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\DelegatePractice.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\Practice\DialogPractice.cs" />
