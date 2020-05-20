@@ -149,6 +149,7 @@
           <e p="Unity Artificial Intelligence" t="Include">
             <e p="Autonomously Moving Agents" t="Include">
               <e p="Seek &amp; Flee" t="Include">
+                <e p="Bot.cs" t="Include" />
                 <e p="sfDrive.cs" t="Include" />
               </e>
             </e>

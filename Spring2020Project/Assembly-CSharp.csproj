@@ -134,6 +134,7 @@
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\SpawnPeaker.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\Spawner.cs" />
     <Compile Include="Assets\Scripts\Other Scripts\UFO's Tutorial\UFOController.cs" />
+    <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Autonomously Moving Agents\Seek &amp; Flee\Bot.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Autonomously Moving Agents\Seek &amp; Flee\sfDrive.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Finite State Machines\Chasing the Player\Pursue.cs" />
     <Compile Include="Assets\Scripts\Unity Artificial Intelligence\Finite State Machines\Chasing the Player\fsmAttack.cs" />
